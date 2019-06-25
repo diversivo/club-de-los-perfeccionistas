@@ -30,7 +30,6 @@
     "require": {
         "php": ">=5.6",
         "ext-gd": "*",
-        "javierdelpozolopez/club-dlp-theme": "1.0",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
@@ -40,6 +39,7 @@
         "drupal/block_class": "^1.0",
         "drupal/claro": "^1.0@alpha",
         "drupal/console": "^1.0.2",
+        "drupal/content_sync": "^2.1",
         "drupal/core": "^8.7.0",
         "drupal/feeds": "^3.0@alpha",
         "drupal/flysystem_s3": "^1.0@beta",
@@ -53,6 +53,7 @@
         "drupal/views_bulk_operations": "^3.2",
         "drupal/views_fieldsets": "^3.3",
         "drush/drush": "^9.0.0",
+        "javierdelpozolopez/club-dlp-theme": "1.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",

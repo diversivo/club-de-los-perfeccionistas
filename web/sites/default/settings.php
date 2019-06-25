@@ -820,4 +820,4 @@ $settings['cache']['bins']['data'] = 'cache.backend.php';
 
 
 global $content_directories;
-$content_directories['sync'] = $app_root.'/../config/content/sync';
+$content_directories['sync'] = $app_root.'/content/sync';

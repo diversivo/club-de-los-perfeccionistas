@@ -1,0 +1,11 @@
+uuid: f35ed9c9-cfcf-4e0d-91e0-2d2366126a65
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.tiendas
+id: node.tiendas
+target_entity_type_id: node
+target_bundle: tiendas
+default_langcode: site_default
+language_alterable: false

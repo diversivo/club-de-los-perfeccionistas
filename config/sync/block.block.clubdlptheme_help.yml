@@ -1,0 +1,22 @@
+uuid: 32c9adab-e23c-4648-b3ea-5caf6c12e873
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - clubdlptheme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: clubdlptheme_help
+theme: clubdlptheme
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  provider: help
+  label_display: '0'
+visibility: {  }

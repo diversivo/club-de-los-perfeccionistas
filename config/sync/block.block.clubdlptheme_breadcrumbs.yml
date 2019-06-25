@@ -1,0 +1,22 @@
+uuid: 610c6308-95fd-4bc8-98a9-c7328cf75103
+langcode: es
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - clubdlptheme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: clubdlptheme_breadcrumbs
+theme: clubdlptheme
+region: content
+weight: 4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  provider: system
+  label_display: '0'
+visibility: {  }

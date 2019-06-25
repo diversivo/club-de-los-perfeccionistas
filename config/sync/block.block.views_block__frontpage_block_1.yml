@@ -1,0 +1,30 @@
+uuid: 6bfdd705-440b-4cde-b29e-83513d82fb56
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.frontpage
+  module:
+    - system
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__frontpage_block_1
+theme: clubdlptheme
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:frontpage-block_1'
+settings:
+  id: 'views_block:frontpage-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

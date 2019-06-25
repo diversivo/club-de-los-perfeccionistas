@@ -1,0 +1,18 @@
+uuid: 7173308b-7441-474d-a099-2b30109814dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.desafio_perfecto
+id: node.desafio_perfecto.title
+field_name: title
+entity_type: node
+bundle: desafio_perfecto
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

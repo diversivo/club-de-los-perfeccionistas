@@ -1,0 +1,14 @@
+uuid: dd7b2283-304e-4df0-9186-baae0a094014
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.dueno
+  module:
+    - user
+id: user_add_role_action.dueno
+label: 'Add the Dueño role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: dueno

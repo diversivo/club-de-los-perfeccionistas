@@ -1,0 +1,18 @@
+uuid: 564d36d7-bf68-466e-a8b5-9b7ada4beff8
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_precios_
+field_name: field_precios_
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

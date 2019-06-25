@@ -1,0 +1,22 @@
+uuid: e4878b5f-e8b2-4b77-afdf-8fb8cc357ad1
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.concursar_desafio_perfecto
+id: node.concursar_desafio_perfecto.promote
+field_name: promote
+entity_type: node
+bundle: concursar_desafio_perfecto
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

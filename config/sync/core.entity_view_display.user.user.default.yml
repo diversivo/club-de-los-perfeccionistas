@@ -1,5 +1,5 @@
 uuid: 93fe7cb4-4feb-4d0e-a202-83dfc10eb031
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
@@ -27,4 +27,5 @@ content:
       image_link: content
     third_party_settings: {  }
     label: hidden
-hidden: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,23 @@
+uuid: e2fd1bc0-6e75-4605-a3b0-88ee88235531
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cliente_id
+    - node.type.tiendas
+id: node.tiendas.field_cliente_id
+field_name: field_cliente_id
+entity_type: node
+bundle: tiendas
+label: 'Cliente Id'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

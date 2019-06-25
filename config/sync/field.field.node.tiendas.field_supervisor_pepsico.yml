@@ -1,0 +1,36 @@
+uuid: d8c88287-cec2-4977-bf6e-eafe8d6ce035
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_supervisor_pepsico
+    - node.type.tiendas
+id: node.tiendas.field_supervisor_pepsico
+field_name: field_supervisor_pepsico
+entity_type: node
+bundle: tiendas
+label: 'Supervisor Pepsico'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: role
+      role:
+        supervisor_pepsico: supervisor_pepsico
+        administrator: '0'
+        gerente: '0'
+        dueno: '0'
+        preventista: '0'
+        supervisor: '0'
+        commi: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

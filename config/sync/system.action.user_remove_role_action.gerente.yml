@@ -1,0 +1,14 @@
+uuid: 8a885f14-7ca0-4629-8b3b-b7af88cc3871
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gerente
+  module:
+    - user
+id: user_remove_role_action.gerente
+label: 'Remove the Gerente role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gerente

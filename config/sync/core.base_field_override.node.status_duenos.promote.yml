@@ -1,0 +1,22 @@
+uuid: 41dc6c01-2fca-4f4e-85da-ac1b69dbc5b7
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.status_duenos
+id: node.status_duenos.promote
+field_name: promote
+entity_type: node
+bundle: status_duenos
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

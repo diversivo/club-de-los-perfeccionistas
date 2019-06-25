@@ -1,0 +1,27 @@
+uuid: 0f29486c-4481-4dc0-bb57-77a9f7341cfa
+langcode: es
+status: true
+dependencies: {  }
+id: commi
+label: 'Community Manager'
+weight: 8
+is_admin: null
+permissions:
+  - 'create desafio_perfecto content'
+  - 'create mecanica content'
+  - 'create noticias content'
+  - 'delete any desafio_perfecto content'
+  - 'delete any mecanica content'
+  - 'delete any noticias content'
+  - 'delete own desafio_perfecto content'
+  - 'delete own mecanica content'
+  - 'delete own noticias content'
+  - 'edit any desafio_perfecto content'
+  - 'edit any mecanica content'
+  - 'edit any noticias content'
+  - 'edit any status_duenos content'
+  - 'edit any status_pre_ventista content'
+  - 'edit own desafio_perfecto content'
+  - 'edit own mecanica content'
+  - 'edit own noticias content'
+  - 'view the administration theme'

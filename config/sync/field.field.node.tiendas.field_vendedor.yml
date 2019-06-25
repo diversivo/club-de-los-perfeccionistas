@@ -1,0 +1,36 @@
+uuid: d1414142-5478-41b6-a993-4ee49c1c2a0c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendedor
+    - node.type.tiendas
+id: node.tiendas.field_vendedor
+field_name: field_vendedor
+entity_type: node
+bundle: tiendas
+label: Vendedor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: role
+      role:
+        preventista: preventista
+        administrator: '0'
+        gerente: '0'
+        dueno: '0'
+        supervisor_pepsico: '0'
+        supervisor: '0'
+        commi: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

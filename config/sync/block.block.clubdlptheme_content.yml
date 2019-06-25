@@ -1,0 +1,22 @@
+uuid: a16d7a2d-f441-4c24-af97-44ced2cb9ae0
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - clubdlptheme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: clubdlptheme_content
+theme: clubdlptheme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  provider: system
+  label_display: '0'
+visibility: {  }

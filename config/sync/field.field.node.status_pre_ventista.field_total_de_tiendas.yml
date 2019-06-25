@@ -1,0 +1,23 @@
+uuid: 344fc201-4db6-4186-9992-2bb04765d671
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_de_tiendas
+    - node.type.status_pre_ventista
+id: node.status_pre_ventista.field_total_de_tiendas
+field_name: field_total_de_tiendas
+entity_type: node
+bundle: status_pre_ventista
+label: 'Total de tiendas'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

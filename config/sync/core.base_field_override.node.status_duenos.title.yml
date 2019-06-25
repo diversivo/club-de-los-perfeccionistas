@@ -1,0 +1,18 @@
+uuid: 74625a26-9050-43fa-874b-7e048d45833d
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.status_duenos
+id: node.status_duenos.title
+field_name: title
+entity_type: node
+bundle: status_duenos
+label: Participante
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

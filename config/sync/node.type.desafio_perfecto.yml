@@ -1,0 +1,17 @@
+uuid: 25762a5d-f2c5-4c62-8028-db9fdccd24a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Desafío Perfecto'
+type: desafio_perfecto
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

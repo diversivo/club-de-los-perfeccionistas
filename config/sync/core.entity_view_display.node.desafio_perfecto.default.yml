@@ -1,0 +1,168 @@
+uuid: 67221ec7-5237-4f3f-8f40-3aa5131e7a52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.desafio_perfecto.body
+    - field.field.node.desafio_perfecto.field_desafio_img
+    - field.field.node.desafio_perfecto.field_fecha_limite
+    - field.field.node.desafio_perfecto.field_hashtag
+    - field.field.node.desafio_perfecto.field_tipo_de_usuario
+    - node.type.desafio_perfecto
+  module:
+    - datetime
+    - layout_builder
+    - layout_discovery
+    - options
+    - svg_image
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          b3be2333-4687-4ff0-8a4d-6c3199d55dfe:
+            uuid: b3be2333-4687-4ff0-8a4d-6c3199d55dfe
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:desafio_perfecto:links'
+            additional: {  }
+            weight: -10
+          13b6d5c8-e755-432f-be79-74b350f2112b:
+            uuid: 13b6d5c8-e755-432f-be79-74b350f2112b
+            region: content
+            configuration:
+              id: 'field_block:node:desafio_perfecto:field_desafio_img'
+              label: desafio_img
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: image
+                settings:
+                  image_style: ''
+                  image_link: ''
+                  svg_render_as_image: 1
+                  svg_attributes:
+                    width: ''
+                    height: ''
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: -9
+          4cc1eb7c-e63b-4213-8ed5-9f3555cb08c9:
+            uuid: 4cc1eb7c-e63b-4213-8ed5-9f3555cb08c9
+            region: content
+            configuration:
+              id: 'field_block:node:desafio_perfecto:field_fecha_limite'
+              label: 'Fecha límite'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: above
+                type: datetime_default
+                settings:
+                  timezone_override: ''
+                  format_type: long
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: -7
+          15d6f885-9e2a-4fc6-9b35-74efe33d16cf:
+            uuid: 15d6f885-9e2a-4fc6-9b35-74efe33d16cf
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:desafio_perfecto:body'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: -8
+          9c13df0a-27a4-4a95-b68e-c4ad81e0d115:
+            uuid: 9c13df0a-27a4-4a95-b68e-c4ad81e0d115
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:desafio_perfecto:field_hashtag'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: -6
+        third_party_settings: {  }
+id: node.desafio_perfecto.default
+targetEntityType: node
+bundle: desafio_perfecto
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_desafio_img:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+      svg_attributes:
+        width: ''
+        height: ''
+      svg_render_as_image: true
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_fecha_limite:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_hashtag:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tipo_de_usuario:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

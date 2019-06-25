@@ -1,0 +1,23 @@
+uuid: 297f1603-3638-4e36-a929-bebed8d8c4b6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_objetivo_de_tiendas_per
+    - node.type.status_duenos
+id: node.status_duenos.field_objetivo_de_tiendas_per
+field_name: field_objetivo_de_tiendas_per
+entity_type: node
+bundle: status_duenos
+label: 'Objetivo de tiendas perfectas'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

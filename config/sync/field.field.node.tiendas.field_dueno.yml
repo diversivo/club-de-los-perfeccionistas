@@ -1,0 +1,36 @@
+uuid: a01581b0-30a8-4e37-8ff1-edf7dc46cf6e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dueno
+    - node.type.tiendas
+id: node.tiendas.field_dueno
+field_name: field_dueno
+entity_type: node
+bundle: tiendas
+label: Dueño
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: role
+      role:
+        dueno: dueno
+        administrator: '0'
+        gerente: '0'
+        preventista: '0'
+        supervisor_pepsico: '0'
+        supervisor: '0'
+        commi: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

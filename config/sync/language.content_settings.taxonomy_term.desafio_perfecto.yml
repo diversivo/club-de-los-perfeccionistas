@@ -1,0 +1,11 @@
+uuid: 9017d6a5-8920-4683-bca9-cf2e77c9025c
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.desafio_perfecto
+id: taxonomy_term.desafio_perfecto
+target_entity_type_id: taxonomy_term
+target_bundle: desafio_perfecto
+default_langcode: site_default
+language_alterable: false

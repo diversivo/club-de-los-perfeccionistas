@@ -1,16 +1,12 @@
 uuid: 40594208-5306-4f2c-9b25-a3faef2655dc
-langcode: en
+langcode: es
 status: true
 dependencies: {  }
 _core:
   default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
 id: anonymous
-label: 'Anonymous user'
+label: 'Usuario anónimo'
 weight: 0
 is_admin: false
 permissions:
-  - 'access comments'
-  - 'access content'
-  - 'access site-wide contact form'
-  - 'search content'
-  - 'use text format restricted_html'
+  - 'view media'

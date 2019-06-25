@@ -1,0 +1,151 @@
+uuid: 35a9b980-a0dc-4d69-b063-76c7bc921076
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.noticias.body
+    - field.field.node.noticias.field_noticia_imagen
+    - field.field.node.noticias.field_tipo_de_usuario
+    - field.field.node.noticias.field_video
+    - node.type.noticias
+  module:
+    - layout_builder
+    - layout_discovery
+    - options
+    - svg_image
+    - text
+    - user
+    - video
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          4f9d63fb-2c4f-4587-8308-201434490595:
+            uuid: 4f9d63fb-2c4f-4587-8308-201434490595
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:noticias:links'
+            additional: {  }
+            weight: -10
+          a90fbc46-7d21-4a5a-9cc5-f3ab54d153e1:
+            uuid: a90fbc46-7d21-4a5a-9cc5-f3ab54d153e1
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:noticias:field_noticia_imagen'
+              formatter:
+                label: hidden
+                settings:
+                  image_style: ''
+                  image_link: ''
+                  svg_attributes:
+                    width: ''
+                    height: ''
+                  svg_render_as_image: true
+                third_party_settings: {  }
+                type: image
+            additional: {  }
+            weight: -9
+          90725710-cacb-4cbc-b59e-957cde0db629:
+            uuid: 90725710-cacb-4cbc-b59e-957cde0db629
+            region: content
+            configuration:
+              id: 'field_block:node:noticias:field_video'
+              label: video
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: video_player_list
+                settings:
+                  width: '480'
+                  height: '720'
+                  controls: true
+                  autoplay: false
+                  loop: false
+                  muted: false
+                  preload: none
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: -7
+          3c15390c-d770-43ea-8ca8-1edf8523e62d:
+            uuid: 3c15390c-d770-43ea-8ca8-1edf8523e62d
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:noticias:body'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: -8
+        third_party_settings: {  }
+id: node.noticias.default
+targetEntityType: node
+bundle: noticias
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_noticia_imagen:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+      svg_attributes:
+        width: ''
+        height: ''
+      svg_render_as_image: true
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tipo_de_usuario:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_video:
+    weight: 103
+    label: above
+    settings:
+      width: '480'
+      height: '720'
+      autoplay: false
+      controls: true
+      loop: false
+      muted: false
+      preload: none
+    third_party_settings: {  }
+    type: video_player_list
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

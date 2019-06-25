@@ -1,0 +1,23 @@
+uuid: dfb7f268-4610-486d-87ea-1c23024f0110
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mecanica.field_mecanica_img
+    - node.type.mecanica
+  module:
+    - user
+id: node.mecanica.teaser
+targetEntityType: node
+bundle: mecanica
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_mecanica_img: true
+  langcode: true

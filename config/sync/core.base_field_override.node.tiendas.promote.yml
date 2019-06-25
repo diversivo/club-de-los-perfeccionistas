@@ -1,0 +1,22 @@
+uuid: c436d883-76f0-4405-867f-90bf8e1d1553
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.tiendas
+id: node.tiendas.promote
+field_name: promote
+entity_type: node
+bundle: tiendas
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

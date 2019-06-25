@@ -1,0 +1,38 @@
+uuid: 4ae421b2-ab38-455f-bd4a-0dfeb6af3d54
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.frontpage
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__frontpage_block_5
+theme: clubdlptheme
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:frontpage-block_5'
+settings:
+  id: 'views_block:frontpage-block_5'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

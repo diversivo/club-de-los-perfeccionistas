@@ -1,0 +1,57 @@
+uuid: 2279ec70-b66a-48f6-8acf-33aeb5e3fde6
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.token
+    - field.field.node.noticias.body
+    - field.field.node.noticias.field_noticia_imagen
+    - field.field.node.noticias.field_video
+    - node.type.noticias
+  module:
+    - image
+    - text
+    - user
+    - video
+id: node.noticias.token
+targetEntityType: node
+bundle: noticias
+mode: token
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_noticia_imagen:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_video:
+    weight: 103
+    label: hidden
+    settings:
+      width: '854'
+      height: '480'
+      autoplay: true
+      controls: true
+      loop: false
+      muted: false
+      preload: none
+    third_party_settings: {  }
+    type: video_player
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,52 @@
+uuid: 32b168bf-d325-4f4f-aaa3-4b557debb8e6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.mecanica.field_cuerpo
+    - field.field.node.mecanica.field_mecanica_img
+    - field.field.node.mecanica.field_mecanica_video
+    - node.type.mecanica
+  module:
+    - image
+    - text
+    - user
+    - video
+id: node.mecanica.default
+targetEntityType: node
+bundle: mecanica
+mode: default
+content:
+  field_cuerpo:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_mecanica_img:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_mecanica_video:
+    weight: 104
+    label: above
+    settings:
+      width: '854'
+      height: '480'
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_player
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,10 @@
+login_redirection:
+  anonymous: null
+  authenticated: /
+  administrator: /
+  gerente: /
+  dueno: /
+  preventista: /
+  supervisor_pepsico: /
+  supervisor: /
+exclude_urls: ''

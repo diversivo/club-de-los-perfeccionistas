@@ -1,0 +1,119 @@
+uuid: 8c28a4c7-b477-4dcb-ac10-e68b7dc7d8e2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.tiendas.field_cliente_id
+    - field.field.node.tiendas.field_distribuidora
+    - field.field.node.tiendas.field_taxonomia
+    - field.field.node.tiendas.field_tipologia
+    - field.field.node.tiendas.field_vendedor
+    - node.type.tiendas
+  module:
+    - node
+label: PDV
+id: pdv
+description: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ;
+  no_headers: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  update_existing: 2
+  update_non_existent: _keep
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+  authorize: true
+  skip_hash_check: false
+  values:
+    type: tiendas
+custom_sources:
+  distribuidora:
+    label: distribuidora
+    value: distribuidora
+    machine_name: distribuidora
+  cliente:
+    label: cliente
+    value: cliente
+    machine_name: cliente
+  tipo:
+    label: tipo
+    value: tipo
+    machine_name: tipo
+  taxo:
+    label: taxo
+    value: taxo
+    machine_name: taxo
+  distribuidora_csv:
+    label: distribuidora
+    value: distribuidora
+    machine_name: distribuidora_csv
+  cliente_csv:
+    label: cliente
+    value: cliente
+    machine_name: cliente_csv
+  tipo_csv:
+    label: tipo
+    value: tipo
+    machine_name: tipo_csv
+  taxo_csv:
+    label: taxo
+    value: taxo
+    machine_name: taxo_csv
+  preventista:
+    label: preventista_csv
+    value: preventista_csv
+    machine_name: preventista
+  distribuidora_csva:
+    label: distribuidora
+    value: distribuidora
+    machine_name: distribuidora_csva
+  cliente_csva:
+    label: cliente
+    value: cliente
+    machine_name: cliente_csva
+  tipo_csva:
+    label: tipo
+    value: tipo
+    machine_name: tipo_csva
+  taxo_csva:
+    label: taxo
+    value: taxo
+    machine_name: taxo_csva
+  preventista_csv:
+    label: preventista
+    value: preventista
+    machine_name: preventista_csv
+mappings:
+  -
+    target: field_distribuidora
+    map:
+      value: distribuidora_csva
+    unique: {  }
+  -
+    target: field_cliente_id
+    map:
+      value: cliente_csva
+  -
+    target: field_tipologia
+    map:
+      value: tipo_csva
+  -
+    target: field_taxonomia
+    map:
+      value: taxo_csva
+  -
+    target: field_vendedor
+    map:
+      target_id: preventista_csv
+    settings:
+      reference_by: false
+      autocreate: false

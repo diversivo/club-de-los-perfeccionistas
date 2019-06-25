@@ -1,0 +1,33 @@
+uuid: 6ad1519b-ba6d-4ed7-8626-fccc4735787b
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.community-manager
+  module:
+    - system
+    - user
+  theme:
+    - clubdlptheme
+id: communitymanager
+theme: clubdlptheme
+region: outside
+weight: 0
+provider: null
+plugin: 'system_menu_block:community-manager'
+settings:
+  id: 'system_menu_block:community-manager'
+  label: 'Community Manager'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      commi: commi
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

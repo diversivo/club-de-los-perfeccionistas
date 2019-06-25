@@ -1,0 +1,26 @@
+uuid: 3a54f267-24b9-4ef0-ac60-1597ff9c4f60
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mecanica_video
+    - node.type.mecanica
+  module:
+    - video
+id: node.mecanica.field_mecanica_video
+field_name: field_mecanica_video
+entity_type: node
+bundle: mecanica
+label: 'Mecánica video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: ''
+  file_directory: 'videos/[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: video

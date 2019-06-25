@@ -1,0 +1,11 @@
+uuid: 8ae8a2ad-a907-4a72-bfb9-26b8446bddc3
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.concursar_desafio_perfecto
+id: node.concursar_desafio_perfecto
+target_entity_type_id: node
+target_bundle: concursar_desafio_perfecto
+default_langcode: site_default
+language_alterable: false

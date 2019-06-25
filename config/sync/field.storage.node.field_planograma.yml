@@ -1,0 +1,18 @@
+uuid: ff8d3dcc-bf52-4ef7-8439-afe9b5de8e65
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_planograma
+field_name: field_planograma
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

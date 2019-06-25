@@ -1,0 +1,36 @@
+uuid: b3601653-03df-448a-bd3d-e6ad0f222392
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gerente
+    - node.type.tiendas
+id: node.tiendas.field_gerente
+field_name: field_gerente
+entity_type: node
+bundle: tiendas
+label: Gerente
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: role
+      role:
+        gerente: gerente
+        administrator: '0'
+        dueno: '0'
+        preventista: '0'
+        supervisor_pepsico: '0'
+        supervisor: '0'
+        commi: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

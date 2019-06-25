@@ -1,0 +1,18 @@
+uuid: b619fd56-1d9c-4afb-af01-ec014bb1883c
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.mecanica
+id: node.mecanica.title
+field_name: title
+entity_type: node
+bundle: mecanica
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

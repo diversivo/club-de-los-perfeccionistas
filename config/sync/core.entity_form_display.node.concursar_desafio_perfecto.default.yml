@@ -1,0 +1,56 @@
+uuid: 001a3c89-1fbf-4406-b449-b42fa1830b1b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.concursar_desafio_perfecto.field_comentarios
+    - field.field.node.concursar_desafio_perfecto.field_concursante_imagen
+    - field.field.node.concursar_desafio_perfecto.field_hashtag
+    - image.style.thumbnail
+    - node.type.concursar_desafio_perfecto
+  module:
+    - svg_image
+id: node.concursar_desafio_perfecto.default
+targetEntityType: node
+bundle: concursar_desafio_perfecto
+mode: default
+content:
+  field_comentarios:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_concursante_imagen:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_hashtag:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true
+  url_redirects: true

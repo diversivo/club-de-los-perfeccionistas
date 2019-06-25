@@ -1,0 +1,14 @@
+uuid: af749c62-2e17-4ad1-b798-3f38b5993ab3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.dueno
+  module:
+    - user
+id: user_remove_role_action.dueno
+label: 'Remove the Dueño role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: dueno

@@ -1,0 +1,11 @@
+uuid: 1229cac9-9b8c-41de-93da-d5affa11420e
+langcode: en
+status: true
+dependencies: {  }
+id: supervisor
+label: Supervisor
+weight: 7
+is_admin: null
+permissions:
+  - 'create concursar_desafio_perfecto content'
+  - 'view the administration theme'

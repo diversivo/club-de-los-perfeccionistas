@@ -1,0 +1,18 @@
+uuid: 85d79552-afe1-42ff-9885-201c66de47ad
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.concursar_desafio_perfecto
+id: node.concursar_desafio_perfecto.title
+field_name: title
+entity_type: node
+bundle: concursar_desafio_perfecto
+label: Titulo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

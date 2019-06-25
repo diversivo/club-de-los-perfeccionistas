@@ -1,0 +1,14 @@
+uuid: 9b7a1da0-2947-49e1-9ca1-bd36a946a7ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.preventista
+  module:
+    - user
+id: user_add_role_action.preventista
+label: 'Add the Preventista role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: preventista

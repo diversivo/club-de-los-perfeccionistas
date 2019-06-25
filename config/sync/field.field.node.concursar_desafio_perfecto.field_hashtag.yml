@@ -1,0 +1,29 @@
+uuid: 01579317-696b-4907-a4b4-811157f10e69
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hashtag
+    - node.type.concursar_desafio_perfecto
+    - taxonomy.vocabulary.desafio_perfecto
+id: node.concursar_desafio_perfecto.field_hashtag
+field_name: field_hashtag
+entity_type: node
+bundle: concursar_desafio_perfecto
+label: Hashtag
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      desafio_perfecto: desafio_perfecto
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

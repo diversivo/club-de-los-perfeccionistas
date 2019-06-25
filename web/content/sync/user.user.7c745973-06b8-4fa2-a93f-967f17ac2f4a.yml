@@ -1,0 +1,67 @@
+uuid:
+  -
+    value: 7c745973-06b8-4fa2-a93f-967f17ac2f4a
+langcode:
+  -
+    value: es
+preferred_langcode:
+  -
+    value: es
+preferred_admin_langcode:
+  -
+    value: es
+name:
+  -
+    value: Dueños
+mail:
+  value: dueno@dueno-dlp.cl
+timezone:
+  -
+    value: America/Argentina/Buenos_Aires
+status:
+  value: '1'
+created:
+  -
+    value: '2019-06-16T04:34:48+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-16T04:35:16+00:00'
+    format: 'Y-m-d\TH:i:sP'
+access:
+  -
+    value: '2019-06-17T03:01:34+00:00'
+    format: 'Y-m-d\TH:i:sP'
+login:
+  -
+    value: '2019-06-16T04:53:57+00:00'
+    format: 'Y-m-d\TH:i:sP'
+init:
+  -
+    value: dueno@dueno-dlp.cl
+roles:
+  - authenticated
+  - dueno
+default_langcode:
+  -
+    value: true
+path:
+  -
+    alias: /dueno
+user_picture:
+  -
+    alt: ''
+    title: ''
+    width: 64
+    height: 64
+    target_type: file
+    target_uuid: 20fcc841-618a-43c4-ae27-c6c7c708b754
+_content_sync:
+  entity_type: user
+  entity_dependencies:
+    file:
+      - file.file.20fcc841-618a-43c4-ae27-c6c7c708b754
+pass:
+  -
+    value: $S$EVJgaQhc5Bvxjv9MOCDUot7uyXj8tM4lQWYNMPhddPw7zExv0E/I
+    pre_hashed: true

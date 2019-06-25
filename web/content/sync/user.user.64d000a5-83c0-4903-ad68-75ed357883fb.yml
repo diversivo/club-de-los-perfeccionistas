@@ -1,0 +1,60 @@
+uuid:
+  -
+    value: 64d000a5-83c0-4903-ad68-75ed357883fb
+langcode:
+  -
+    value: es
+preferred_langcode:
+  -
+    value: es
+preferred_admin_langcode:
+  -
+    value: es
+name:
+  -
+    value: supervisor
+mail:
+  value: supervisor@test.com
+timezone:
+  -
+    value: America/Argentina/Buenos_Aires
+status:
+  value: '1'
+created:
+  -
+    value: '2019-06-23T21:23:57+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-23T21:23:57+00:00'
+    format: 'Y-m-d\TH:i:sP'
+access:
+  -
+    value: '2019-06-24T21:06:19+00:00'
+    format: 'Y-m-d\TH:i:sP'
+login:
+  -
+    value: '2019-06-24T20:43:22+00:00'
+    format: 'Y-m-d\TH:i:sP'
+init:
+  -
+    value: supervisor@test.com
+roles:
+  - authenticated
+  - supervisor
+default_langcode:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: es
+user_picture: {  }
+_content_sync:
+  entity_type: user
+  entity_dependencies: {  }
+pass:
+  -
+    value: $S$EFnAJweed0gaL.G0C.alBvyglbQinPq5z4ObNkCe9G85R5o4AVCJ
+    pre_hashed: true

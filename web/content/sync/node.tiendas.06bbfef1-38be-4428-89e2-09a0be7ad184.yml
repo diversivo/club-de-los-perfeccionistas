@@ -1,0 +1,118 @@
+uuid:
+  -
+    value: 06bbfef1-38be-4428-89e2-09a0be7ad184
+langcode:
+  -
+    value: es
+type:
+  -
+    target_id: tiendas
+    target_type: node_type
+    target_uuid: 0dc88baa-10a0-4fe6-bcd4-64a801245bd9
+revision_timestamp:
+  -
+    value: '2019-06-23T23:22:49+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+title:
+  -
+    value: 'tienda test 2'
+created:
+  -
+    value: '2019-06-23T23:21:57+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-25T03:23:21+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: es
+menu_link: {  }
+feeds_item: {  }
+field_cliente_id:
+  -
+    value: 765
+field_distribuidora:
+  -
+    value: 'DIST. Test'
+field_dueno:
+  -
+    target_type: user
+    target_uuid: 7c745973-06b8-4fa2-a93f-967f17ac2f4a
+field_exhibidores:
+  -
+    value: true
+field_gerente:
+  -
+    target_type: user
+    target_uuid: 8136a6ef-3932-43d2-84a7-4a82201f04ed
+field_planograma:
+  -
+    value: true
+field_portafolio:
+  -
+    value: true
+field_precios_:
+  -
+    value: true
+field_rotacion_:
+  -
+    value: true
+field_supervisor:
+  -
+    target_type: user
+    target_uuid: 64d000a5-83c0-4903-ad68-75ed357883fb
+field_supervisor_pepsico:
+  -
+    target_type: user
+    target_uuid: 57fe6f19-ea1a-4277-8dfd-8a476d3f84b2
+field_taxonomia:
+  -
+    value: C
+field_tipologia:
+  -
+    value: Tradicional
+field_tp:
+  -
+    value: 100
+field_vendedor:
+  -
+    target_type: user
+    target_uuid: 7b8ed483-6909-42af-98c2-cb3a0c615039
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c
+      - user.user.7c745973-06b8-4fa2-a93f-967f17ac2f4a
+      - user.user.8136a6ef-3932-43d2-84a7-4a82201f04ed
+      - user.user.64d000a5-83c0-4903-ad68-75ed357883fb
+      - user.user.57fe6f19-ea1a-4277-8dfd-8a476d3f84b2
+      - user.user.7b8ed483-6909-42af-98c2-cb3a0c615039

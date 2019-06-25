@@ -1,0 +1,114 @@
+uuid:
+  -
+    value: 2edf9895-7543-4ab1-b586-30b8c06a480c
+langcode:
+  -
+    value: en
+preferred_langcode:
+  -
+    value: en
+preferred_admin_langcode: {  }
+name:
+  -
+    value: clubdlp.admin
+mail:
+  value: jdelpozo@p-per.com
+timezone:
+  -
+    value: America/Argentina/Buenos_Aires
+status:
+  value: '1'
+created:
+  -
+    value: '2019-06-02T23:39:45+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-02T23:41:13+00:00'
+    format: 'Y-m-d\TH:i:sP'
+access:
+  -
+    value: '2019-06-25T05:31:53+00:00'
+    format: 'Y-m-d\TH:i:sP'
+login:
+  -
+    value: '2019-06-09T02:34:47+00:00'
+    format: 'Y-m-d\TH:i:sP'
+init:
+  -
+    value: jdelpozo@p-per.com
+roles:
+  - authenticated
+default_langcode:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: en
+user_picture: {  }
+_content_sync:
+  entity_type: user
+pass:
+  -
+    value: $S$EK9P.Q3LoEJFKXOAZPoNVxeNiKvC9ghoxbBEV/dOd8u2KQyRLdcp
+    pre_hashed: true
+_translations:
+  en:
+    uuid:
+      -
+        value: 2edf9895-7543-4ab1-b586-30b8c06a480c
+    langcode:
+      -
+        value: en
+    preferred_langcode:
+      -
+        value: en
+    preferred_admin_langcode: {  }
+    name:
+      -
+        value: clubdlp.admin
+    mail:
+      value: jdelpozo@p-per.com
+    timezone:
+      -
+        value: America/Argentina/Buenos_Aires
+    status:
+      value: '1'
+    created:
+      -
+        value: '2019-06-02T23:39:45+00:00'
+        format: 'Y-m-d\TH:i:sP'
+    changed:
+      -
+        value: '2019-06-02T23:41:13+00:00'
+        format: 'Y-m-d\TH:i:sP'
+    access:
+      -
+        value: '2019-06-25T05:31:53+00:00'
+        format: 'Y-m-d\TH:i:sP'
+    login:
+      -
+        value: '2019-06-09T02:34:47+00:00'
+        format: 'Y-m-d\TH:i:sP'
+    init:
+      -
+        value: jdelpozo@p-per.com
+    roles:
+      - authenticated
+    default_langcode:
+      -
+        value: true
+    path:
+      -
+        alias: null
+        pid: null
+        langcode: en
+    user_picture: {  }
+    _content_sync:
+      entity_type: user
+    pass:
+      -
+        value: $S$EK9P.Q3LoEJFKXOAZPoNVxeNiKvC9ghoxbBEV/dOd8u2KQyRLdcp
+        pre_hashed: true

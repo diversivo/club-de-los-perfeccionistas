@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: eab1756b-0080-4908-b02d-103d65ad8638
+langcode:
+  -
+    value: en
+uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+filename:
+  -
+    value: 'Captura de Pantalla 2019-05-27 a la(s) 15.26.29.png'
+uri:
+  -
+    value: 'public://2019-06/Captura de Pantalla 2019-05-27 a la(s) 15.26.29.png'
+    url: /club-de-los-perfeccionistas/web/sites/default/files/2019-06/Captura%20de%20Pantalla%202019-05-27%20a%20la%28s%29%2015.26.29.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 289290
+status:
+  -
+    value: true
+created:
+  -
+    value: '2019-06-09T02:10:04+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-09T02:10:17+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c

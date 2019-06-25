@@ -1,0 +1,88 @@
+uuid:
+  -
+    value: 6b016eec-0a3d-4e0e-82fa-e9aa4b3f6fb4
+langcode:
+  -
+    value: es
+type:
+  -
+    target_id: noticias
+    target_type: node_type
+    target_uuid: c617a13a-9bb5-41f4-8abf-608c181174e5
+revision_timestamp:
+  -
+    value: '2019-06-12T03:58:57+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+title:
+  -
+    value: '¿Qué es tienda perfecta?'
+created:
+  -
+    value: '2019-06-12T03:57:30+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-16T20:08:52+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: true
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: es
+menu_link: {  }
+body:
+  -
+    value: "<p>Si&nbsp;tienes dudas sobre cómo conseguir una tienda perfecta, sigue con estos sencillos pasos y listo, es momento de ganar.</p>\r\n"
+    format: basic_html
+    processed: "<p>Si\_tienes dudas sobre cómo conseguir una tienda perfecta, sigue con estos sencillos pasos y listo, es momento de ganar.</p>"
+    summary: ''
+    summary_processed: ''
+field_noticia_imagen:
+  -
+    alt: test
+    title: ''
+    width: 461
+    height: 212
+    target_type: file
+    target_uuid: 0fa1bdec-1fed-450f-a95f-f49f337e55ad
+field_tipo_de_usuario:
+  -
+    value: Dueño
+field_video:
+  -
+    data: null
+    target_type: file
+    target_uuid: 8e166e2f-b77a-40a2-89c5-3e49b0e364d5
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c
+    file:
+      - file.file.0fa1bdec-1fed-450f-a95f-f49f337e55ad
+      - file.file.8e166e2f-b77a-40a2-89c5-3e49b0e364d5

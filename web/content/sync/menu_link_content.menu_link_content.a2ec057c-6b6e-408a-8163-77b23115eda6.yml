@@ -1,0 +1,62 @@
+uuid:
+  -
+    value: a2ec057c-6b6e-408a-8163-77b23115eda6
+langcode:
+  -
+    value: es
+bundle:
+  -
+    value: menu_link_content
+revision_created:
+  -
+    value: '2019-06-16T18:08:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+enabled:
+  -
+    value: true
+title:
+  -
+    value: MECÁNICA
+description: {  }
+menu_name:
+  -
+    value: main
+link:
+  -
+    uri: 'entity:node/8'
+    title: ''
+    options:
+      fa_icon: 'fas fa-bullhorn'
+      fa_icon_appearance: before
+external:
+  -
+    value: false
+rediscover:
+  -
+    value: false
+weight:
+  -
+    value: -48
+expanded:
+  -
+    value: false
+parent: {  }
+changed:
+  -
+    value: '2019-06-16T18:55:08+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+_content_sync:
+  entity_type: menu_link_content
+  menu_entity_link:
+    node: ad61ba1b-ecec-48e5-a4c4-ba5ed05046a5
+  entity_dependencies:
+    node:
+      - node.page.ad61ba1b-ecec-48e5-a4c4-ba5ed05046a5

@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 325a3702-dbed-4eab-beb1-9c82db3074fc
+langcode:
+  -
+    value: es
+uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+filename:
+  -
+    value: t9ZiqCjse2.mp4
+uri:
+  -
+    value: 's3://videos/2019-06/t9ZiqCjse2.mp4'
+    url: /club-de-los-perfeccionistas/web/_flysystem/s3/videos/2019-06/t9ZiqCjse2.mp4
+filemime:
+  -
+    value: video/mp4
+filesize:
+  -
+    value: 1027
+status:
+  -
+    value: true
+created:
+  -
+    value: '2019-06-24T15:27:44+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-24T15:27:44+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c

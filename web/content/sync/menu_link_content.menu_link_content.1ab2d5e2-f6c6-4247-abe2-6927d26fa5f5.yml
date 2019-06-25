@@ -1,0 +1,62 @@
+uuid:
+  -
+    value: 1ab2d5e2-f6c6-4247-abe2-6927d26fa5f5
+langcode:
+  -
+    value: es
+bundle:
+  -
+    value: menu_link_content
+revision_created:
+  -
+    value: '2019-06-16T18:10:04+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+enabled:
+  -
+    value: true
+title:
+  -
+    value: 'INCENTIVOS EXTRA'
+description: {  }
+menu_name:
+  -
+    value: main
+link:
+  -
+    uri: 'entity:node/10'
+    title: ''
+    options:
+      fa_icon: fa-gem
+      fa_icon_appearance: before
+external:
+  -
+    value: false
+rediscover:
+  -
+    value: false
+weight:
+  -
+    value: -46
+expanded:
+  -
+    value: false
+parent: {  }
+changed:
+  -
+    value: '2019-06-16T18:55:08+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+_content_sync:
+  entity_type: menu_link_content
+  menu_entity_link:
+    node: 7a789466-9c61-42c5-9875-b02efe14d6d9
+  entity_dependencies:
+    node:
+      - node.page.7a789466-9c61-42c5-9875-b02efe14d6d9

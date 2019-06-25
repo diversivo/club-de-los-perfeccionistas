@@ -1,0 +1,61 @@
+uuid:
+  -
+    value: 7a789466-9c61-42c5-9875-b02efe14d6d9
+langcode:
+  -
+    value: es
+type:
+  -
+    target_id: page
+    target_type: node_type
+    target_uuid: 6ed49265-82f3-4ca8-a16f-761767897e68
+revision_timestamp:
+  -
+    value: '2019-06-16T18:10:04+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+title:
+  -
+    value: 'INCENTIVOS EXTRA'
+created:
+  -
+    value: '2019-06-16T18:09:43+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-16T18:10:04+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: /incentivos-extra
+menu_link: {  }
+body: {  }
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c

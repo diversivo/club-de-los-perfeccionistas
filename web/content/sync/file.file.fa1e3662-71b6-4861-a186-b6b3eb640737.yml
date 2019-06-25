@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: fa1e3662-71b6-4861-a186-b6b3eb640737
+langcode:
+  -
+    value: es
+uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+filename:
+  -
+    value: test-2.png
+uri:
+  -
+    value: 's3://2019-06/test-2.png'
+    url: /club-de-los-perfeccionistas/web/_flysystem/s3/2019-06/test-2.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 74107
+status:
+  -
+    value: true
+created:
+  -
+    value: '2019-06-17T00:11:37+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-17T00:11:58+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c

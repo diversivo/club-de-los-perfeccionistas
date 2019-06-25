@@ -1,0 +1,46 @@
+uuid:
+  -
+    value: dd3b30b5-7392-44bd-96dc-d38f84fb1273
+langcode:
+  -
+    value: es
+type:
+  -
+    target_id: basic
+    target_type: block_content_type
+    target_uuid: 831828d5-e26b-4dfc-83f0-1492fcadcf77
+revision_created:
+  -
+    value: '2019-06-16T05:45:09+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log: {  }
+status:
+  -
+    value: true
+info:
+  -
+    value: 'Hamburguer menu'
+changed:
+  -
+    value: '2019-06-16T05:46:03+00:00'
+    format: 'Y-m-d\TH:i:sP'
+reusable:
+  -
+    value: true
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+body:
+  -
+    value: '<div class="hamburguer-menu" id="js-hamburguer-menu"><i class="fas fa-bars fa-2x"></i></div>'
+    format: full_html
+    processed: '<div class="hamburguer-menu" id="js-hamburguer-menu"><i class="fas fa-bars fa-2x"></i></div>'
+    summary: ''
+    summary_processed: ''
+_content_sync:
+  entity_type: block_content
+  entity_dependencies: {  }

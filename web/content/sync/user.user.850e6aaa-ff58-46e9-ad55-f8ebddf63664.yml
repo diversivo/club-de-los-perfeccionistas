@@ -1,0 +1,69 @@
+uuid:
+  -
+    value: 850e6aaa-ff58-46e9-ad55-f8ebddf63664
+langcode:
+  -
+    value: es
+preferred_langcode:
+  -
+    value: es
+preferred_admin_langcode:
+  -
+    value: es
+name:
+  -
+    value: whatsappero
+mail:
+  value: whatsapero@test.com
+timezone:
+  -
+    value: America/Argentina/Buenos_Aires
+status:
+  value: '1'
+created:
+  -
+    value: '2019-06-24T16:12:54+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-24T19:07:07+00:00'
+    format: 'Y-m-d\TH:i:sP'
+access:
+  -
+    value: '2019-06-24T19:07:12+00:00'
+    format: 'Y-m-d\TH:i:sP'
+login:
+  -
+    value: '2019-06-24T19:03:27+00:00'
+    format: 'Y-m-d\TH:i:sP'
+init:
+  -
+    value: whatsapero@test.com
+roles:
+  - authenticated
+  - commi
+default_langcode:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: es
+user_picture:
+  -
+    alt: ''
+    title: ''
+    width: 64
+    height: 64
+    target_type: file
+    target_uuid: e03d9632-5991-4936-b835-c80b02aa82f0
+_content_sync:
+  entity_type: user
+  entity_dependencies:
+    file:
+      - file.file.e03d9632-5991-4936-b835-c80b02aa82f0
+pass:
+  -
+    value: $S$EAC1GwFUkYdCx52WdRIa9HAorjvDk4LHTk5iwHx93sHC0bPo.whF
+    pre_hashed: true

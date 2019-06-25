@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 3af0e7d3-d0c8-48b4-b5f2-fc5e2225e67c
+langcode:
+  -
+    value: es
+uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+filename:
+  -
+    value: main-image-login.png
+uri:
+  -
+    value: 'public://2019-06/main-image-login.png'
+    url: /club-de-los-perfeccionistas/web/sites/default/files/2019-06/main-image-login.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 60172
+status:
+  -
+    value: true
+created:
+  -
+    value: '2019-06-23T18:45:13+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-23T18:45:35+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c

@@ -1,0 +1,60 @@
+uuid:
+  -
+    value: 8136a6ef-3932-43d2-84a7-4a82201f04ed
+langcode:
+  -
+    value: es
+preferred_langcode:
+  -
+    value: es
+preferred_admin_langcode:
+  -
+    value: es
+name:
+  -
+    value: gerente
+mail:
+  value: gerente@test.com
+timezone:
+  -
+    value: America/Argentina/Buenos_Aires
+status:
+  value: '1'
+created:
+  -
+    value: '2019-06-23T21:25:59+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-23T21:25:59+00:00'
+    format: 'Y-m-d\TH:i:sP'
+access:
+  -
+    value: '1970-01-01T00:00:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+login:
+  -
+    value: '1970-01-01T00:00:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+init:
+  -
+    value: gerente@test.com
+roles:
+  - authenticated
+  - gerente
+default_langcode:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: es
+user_picture: {  }
+_content_sync:
+  entity_type: user
+  entity_dependencies: {  }
+pass:
+  -
+    value: $S$Eajo2vWDUg7tz91TV5Km1xK5OMT11iadnHJhCXXX8btm5dqUbWJq
+    pre_hashed: true

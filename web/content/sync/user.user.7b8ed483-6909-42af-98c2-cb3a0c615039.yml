@@ -1,0 +1,69 @@
+uuid:
+  -
+    value: 7b8ed483-6909-42af-98c2-cb3a0c615039
+langcode:
+  -
+    value: es
+preferred_langcode:
+  -
+    value: es
+preferred_admin_langcode:
+  -
+    value: es
+name:
+  -
+    value: preventista
+mail:
+  value: preventista@test.com
+timezone:
+  -
+    value: America/Argentina/Buenos_Aires
+status:
+  value: '1'
+created:
+  -
+    value: '2019-06-23T21:21:43+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-24T18:56:37+00:00'
+    format: 'Y-m-d\TH:i:sP'
+access:
+  -
+    value: '2019-06-25T03:59:25+00:00'
+    format: 'Y-m-d\TH:i:sP'
+login:
+  -
+    value: '2019-06-24T21:24:08+00:00'
+    format: 'Y-m-d\TH:i:sP'
+init:
+  -
+    value: preventista@test.com
+roles:
+  - authenticated
+  - preventista
+default_langcode:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: es
+user_picture:
+  -
+    alt: ''
+    title: ''
+    width: 225
+    height: 225
+    target_type: file
+    target_uuid: 808f3eba-0dc1-48a3-81e5-0e047b4c9367
+_content_sync:
+  entity_type: user
+  entity_dependencies:
+    file:
+      - file.file.808f3eba-0dc1-48a3-81e5-0e047b4c9367
+pass:
+  -
+    value: $S$Eleifw7gzHN4yNF4/MOapclyROVllwPaMONFWt8pRULMLYljWdiK
+    pre_hashed: true

@@ -1,0 +1,60 @@
+uuid:
+  -
+    value: 57fe6f19-ea1a-4277-8dfd-8a476d3f84b2
+langcode:
+  -
+    value: es
+preferred_langcode:
+  -
+    value: es
+preferred_admin_langcode:
+  -
+    value: es
+name:
+  -
+    value: 'supervisor pepsico'
+mail:
+  value: supervisor-pepsico@test.com
+timezone:
+  -
+    value: America/Argentina/Buenos_Aires
+status:
+  value: '1'
+created:
+  -
+    value: '2019-06-23T21:25:34+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-23T21:25:34+00:00'
+    format: 'Y-m-d\TH:i:sP'
+access:
+  -
+    value: '1970-01-01T00:00:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+login:
+  -
+    value: '1970-01-01T00:00:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+init:
+  -
+    value: supervisor-pepsico@test.com
+roles:
+  - authenticated
+  - supervisor_pepsico
+default_langcode:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: es
+user_picture: {  }
+_content_sync:
+  entity_type: user
+  entity_dependencies: {  }
+pass:
+  -
+    value: $S$EaVm0QLfjguCCZcIpa4rD96WmJxxcpIKWUzcKP7Aqlvusij0ZBHH
+    pre_hashed: true

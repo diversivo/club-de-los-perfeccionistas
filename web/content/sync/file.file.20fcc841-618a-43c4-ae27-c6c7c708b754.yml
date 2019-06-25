@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 20fcc841-618a-43c4-ae27-c6c7c708b754
+langcode:
+  -
+    value: es
+uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+filename:
+  -
+    value: avatar-pper-64x64.png
+uri:
+  -
+    value: 'public://pictures/2019-06/avatar-pper-64x64.png'
+    url: /club-de-los-perfeccionistas/web/sites/default/files/pictures/2019-06/avatar-pper-64x64.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 1243
+status:
+  -
+    value: true
+created:
+  -
+    value: '2019-06-16T04:34:48+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-16T04:35:16+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c

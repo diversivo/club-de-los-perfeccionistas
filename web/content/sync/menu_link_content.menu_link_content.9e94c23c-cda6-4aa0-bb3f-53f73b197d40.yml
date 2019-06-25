@@ -1,0 +1,62 @@
+uuid:
+  -
+    value: 9e94c23c-cda6-4aa0-bb3f-53f73b197d40
+langcode:
+  -
+    value: es
+bundle:
+  -
+    value: menu_link_content
+revision_created:
+  -
+    value: '2019-06-16T18:08:11+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+enabled:
+  -
+    value: true
+title:
+  -
+    value: STATUS
+description: {  }
+menu_name:
+  -
+    value: main
+link:
+  -
+    uri: 'entity:node/7'
+    title: ''
+    options:
+      fa_icon: 'far fa-grin'
+      fa_icon_appearance: before
+external:
+  -
+    value: false
+rediscover:
+  -
+    value: false
+weight:
+  -
+    value: -49
+expanded:
+  -
+    value: false
+parent: {  }
+changed:
+  -
+    value: '2019-06-16T18:55:32+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+_content_sync:
+  entity_type: menu_link_content
+  menu_entity_link:
+    node: cd6c7f6f-bc50-4f60-a5ec-737c8b9d9646
+  entity_dependencies:
+    node:
+      - node.page.cd6c7f6f-bc50-4f60-a5ec-737c8b9d9646

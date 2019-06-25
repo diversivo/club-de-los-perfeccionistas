@@ -1,0 +1,84 @@
+uuid:
+  -
+    value: b2d0d83b-9184-4316-90b5-10a9c42ff25a
+langcode:
+  -
+    value: es
+type:
+  -
+    target_id: desafio_perfecto
+    target_type: node_type
+    target_uuid: 25762a5d-f2c5-4c62-8028-db9fdccd24a9
+revision_timestamp:
+  -
+    value: '2019-06-17T00:11:37+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+title:
+  -
+    value: 'Sube tu tienda perfecta'
+created:
+  -
+    value: '2019-06-17T00:10:40+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-17T00:15:09+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: true
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: /desafio-perfecto/sube-tu-tienda-perfecta-06-16
+menu_link: {  }
+body:
+  -
+    value: "<p>Sube una foto de tu tienda y gana.</p>\r\n"
+    format: basic_html
+    processed: '<p>Sube una foto de tu tienda y gana.</p>'
+    summary: ''
+    summary_processed: ''
+field_desafio_img:
+  -
+    alt: 'test 3'
+    title: ''
+    width: 480
+    height: 220
+    target_type: file
+    target_uuid: fa1e3662-71b6-4861-a186-b6b3eb640737
+field_fecha_limite:
+  -
+    value: '2019-06-20'
+field_hashtag: {  }
+field_tipo_de_usuario:
+  -
+    value: Dueño
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c
+    file:
+      - file.file.fa1e3662-71b6-4861-a186-b6b3eb640737

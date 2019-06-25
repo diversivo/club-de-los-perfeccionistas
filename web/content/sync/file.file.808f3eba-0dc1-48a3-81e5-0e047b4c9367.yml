@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 808f3eba-0dc1-48a3-81e5-0e047b4c9367
+langcode:
+  -
+    value: es
+uid:
+  -
+    target_type: user
+    target_uuid: 7b8ed483-6909-42af-98c2-cb3a0c615039
+filename:
+  -
+    value: avagar-pepsico.png
+uri:
+  -
+    value: 'public://pictures/2019-06/avagar-pepsico.png'
+    url: /club-de-los-perfeccionistas/web/sites/default/files/pictures/2019-06/avagar-pepsico.png
+filemime:
+  -
+    value: image/png
+filesize:
+  -
+    value: 7559
+status:
+  -
+    value: true
+created:
+  -
+    value: '2019-06-24T18:56:34+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-24T18:56:37+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.7b8ed483-6909-42af-98c2-cb3a0c615039

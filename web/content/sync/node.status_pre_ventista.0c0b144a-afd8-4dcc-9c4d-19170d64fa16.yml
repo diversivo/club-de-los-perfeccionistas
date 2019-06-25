@@ -1,0 +1,76 @@
+uuid:
+  -
+    value: 0c0b144a-afd8-4dcc-9c4d-19170d64fa16
+langcode:
+  -
+    value: es
+type:
+  -
+    target_id: status_pre_ventista
+    target_type: node_type
+    target_uuid: f54b48dc-46aa-4d5a-86c7-befebc576e3b
+revision_timestamp:
+  -
+    value: '2019-06-24T01:06:58+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: 2edf9895-7543-4ab1-b586-30b8c06a480c
+title:
+  -
+    value: JUAN
+created:
+  -
+    value: '2019-06-24T01:06:26+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2019-06-24T01:06:58+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+path:
+  -
+    alias: null
+    pid: null
+    langcode: es
+menu_link: {  }
+field_objetivo_de_tiendas_per:
+  -
+    value: 15
+field_participante:
+  -
+    target_type: user
+    target_uuid: 7b8ed483-6909-42af-98c2-cb3a0c615039
+field_total_de_tiendas:
+  -
+    value: 25
+field_total_de_tiendas_pef:
+  -
+    value: 10
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c
+      - user.user.2edf9895-7543-4ab1-b586-30b8c06a480c
+      - user.user.7b8ed483-6909-42af-98c2-cb3a0c615039

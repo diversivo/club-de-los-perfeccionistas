@@ -817,3 +817,7 @@ $settings['flysystem'] = $schemes;
 
 // CSS and JS aggregation need per dyno cache.
 $settings['cache']['bins']['data'] = 'cache.backend.php';
+
+
+global $content_directories;
+$content_directories['sync'] = $app_root.'/../content/sync';

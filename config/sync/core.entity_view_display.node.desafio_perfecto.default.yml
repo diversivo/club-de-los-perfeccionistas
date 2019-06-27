@@ -93,22 +93,6 @@ third_party_settings:
                 third_party_settings: {  }
             additional: {  }
             weight: -8
-          9c13df0a-27a4-4a95-b68e-c4ad81e0d115:
-            uuid: 9c13df0a-27a4-4a95-b68e-c4ad81e0d115
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:node:desafio_perfecto:field_hashtag'
-              formatter:
-                label: above
-                settings:
-                  link: true
-                third_party_settings: {  }
-                type: entity_reference_label
-            additional: {  }
-            weight: -6
         third_party_settings: {  }
 id: node.desafio_perfecto.default
 targetEntityType: node

@@ -6,12 +6,18 @@ dependencies:
     - field.field.node.mecanica.field_cuerpo
     - field.field.node.mecanica.field_mecanica_img
     - field.field.node.mecanica.field_mecanica_video
+    - field.field.node.mecanica.field_video_m
     - node.type.mecanica
   module:
-    - image
+    - layout_builder
+    - svg_image
     - text
     - user
     - video
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
 id: node.mecanica.default
 targetEntityType: node
 bundle: mecanica
@@ -19,23 +25,27 @@ mode: default
 content:
   field_cuerpo:
     weight: 103
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_mecanica_img:
     weight: 102
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
+      svg_attributes:
+        width: ''
+        height: ''
+      svg_render_as_image: true
     third_party_settings: {  }
     type: image
     region: content
   field_mecanica_video:
     weight: 104
-    label: above
+    label: hidden
     settings:
       width: '854'
       height: '480'
@@ -43,10 +53,24 @@ content:
     third_party_settings: {  }
     type: video_embed_player
     region: content
+  field_video_m:
+    weight: 105
+    label: hidden
+    settings:
+      width: '480'
+      height: '320'
+      controls: true
+      preload: none
+      autoplay: false
+      loop: false
+      muted: false
+    third_party_settings: {  }
+    type: video_player_list
+    region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   langcode: true

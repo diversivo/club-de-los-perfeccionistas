@@ -33,5 +33,6 @@ content:
 hidden:
   field_desafio_img: true
   field_fecha_limite: true
+  field_hashtag: true
   field_tipo_de_usuario: true
   langcode: true

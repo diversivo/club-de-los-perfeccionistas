@@ -1,0 +1,17 @@
+uuid: 90d5140a-722a-4262-abc5-c24a4f43f413
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Incentivo Extra'
+type: incentivo_extra
+description: 'Envíe un incentivo extra.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

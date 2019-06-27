@@ -19,5 +19,20 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  feeds_item: true
+  field_cliente_id: true
+  field_distribuidora: true
+  field_dueno: true
+  field_exhibidores: true
+  field_gerente: true
+  field_planograma: true
+  field_portafolio: true
+  field_precios_: true
+  field_rotacion_: true
+  field_supervisor: true
+  field_supervisor_pepsico: true
+  field_taxonomia: true
+  field_tipologia: true
+  field_tp: true
   field_vendedor: true
   langcode: true

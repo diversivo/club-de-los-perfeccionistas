@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.noticias.field_noticia_imagen
     - field.field.node.noticias.field_tipo_de_usuario
     - field.field.node.noticias.field_video
+    - field.field.node.noticias.field_video_externo
     - image.style.thumbnail
     - node.type.noticias
   module:
@@ -58,6 +59,15 @@ content:
       progress_indicator: throbber
     third_party_settings: {  }
     type: video_upload
+    region: content
+  field_video_externo:
+    weight: 125
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   langcode:
     type: language_select

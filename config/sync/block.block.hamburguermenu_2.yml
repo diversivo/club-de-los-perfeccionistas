@@ -1,22 +1,22 @@
-uuid: b03d04c7-d0e0-434f-8c84-c4240250826d
+uuid: 3dec9727-d78a-499e-ab78-12ff112b37ff
 langcode: es
 status: true
 dependencies:
   content:
-    - 'block_content:basic:dd3b30b5-7392-44bd-96dc-d38f84fb1273'
+    - 'block_content:basic:893c25fd-362c-4ec1-9cfa-9323ca50458e'
   module:
     - block_content
     - user
   theme:
     - clubdlptheme
-id: hamburguermenu
+id: hamburguermenu_2
 theme: clubdlptheme
 region: header
-weight: -6
+weight: -10
 provider: null
-plugin: 'block_content:dd3b30b5-7392-44bd-96dc-d38f84fb1273'
+plugin: 'block_content:893c25fd-362c-4ec1-9cfa-9323ca50458e'
 settings:
-  id: 'block_content:dd3b30b5-7392-44bd-96dc-d38f84fb1273'
+  id: 'block_content:893c25fd-362c-4ec1-9cfa-9323ca50458e'
   label: 'Hamburguer menu'
   provider: block_content
   label_display: '0'

@@ -1,0 +1,25 @@
+uuid: 4ac95f3f-f595-43f0-9ec5-d05050e8f49f
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.incentivo_extra.field_comentarios
+    - field.field.node.incentivo_extra.field_incentivo_imagen
+    - node.type.incentivo_extra
+  module:
+    - user
+id: node.incentivo_extra.teaser
+targetEntityType: node
+bundle: incentivo_extra
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_comentarios: true
+  field_incentivo_imagen: true
+  langcode: true

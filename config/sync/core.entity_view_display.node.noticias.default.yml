@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.noticias.field_noticia_imagen
     - field.field.node.noticias.field_tipo_de_usuario
     - field.field.node.noticias.field_video
+    - field.field.node.noticias.field_video_externo
     - node.type.noticias
   module:
     - layout_builder
@@ -95,6 +96,23 @@ third_party_settings:
                 third_party_settings: {  }
             additional: {  }
             weight: -8
+          c85ac453-4613-4cba-aa11-50e0c6073292:
+            uuid: c85ac453-4613-4cba-aa11-50e0c6073292
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:noticias:field_video_externo'
+              formatter:
+                type: entity_reference_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: false
+                third_party_settings: {  }
+            additional: {  }
+            weight: -6
         third_party_settings: {  }
 id: node.noticias.default
 targetEntityType: node
@@ -141,6 +159,15 @@ content:
       preload: none
     third_party_settings: {  }
     type: video_player_list
+    region: content
+  field_video_externo:
+    type: entity_reference_entity_view
+    weight: 105
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
     region: content
   links:
     weight: 100

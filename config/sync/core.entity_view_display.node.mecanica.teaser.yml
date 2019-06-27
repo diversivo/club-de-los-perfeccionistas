@@ -1,10 +1,13 @@
 uuid: dfb7f268-4610-486d-87ea-1c23024f0110
 langcode: es
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.mecanica.field_cuerpo
     - field.field.node.mecanica.field_mecanica_img
+    - field.field.node.mecanica.field_mecanica_video
+    - field.field.node.mecanica.field_video_m
     - node.type.mecanica
   module:
     - user
@@ -19,5 +22,8 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_cuerpo: true
   field_mecanica_img: true
+  field_mecanica_video: true
+  field_video_m: true
   langcode: true

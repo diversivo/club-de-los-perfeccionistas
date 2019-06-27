@@ -1,0 +1,28 @@
+uuid: f1db8153-8edd-4fef-9a83-0dacebf2661a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_externo
+    - media.type.remote_video
+    - node.type.noticias
+id: node.noticias.field_video_externo
+field_name: field_video_externo
+entity_type: node
+bundle: noticias
+label: video_externo
+description: 'Ponga la URL del video externo desde YouTube o Vimeo.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

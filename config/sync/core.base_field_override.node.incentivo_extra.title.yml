@@ -1,0 +1,18 @@
+uuid: a55aa8c0-5e4b-49d4-b5c3-a8601816bf62
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.incentivo_extra
+id: node.incentivo_extra.title
+field_name: title
+entity_type: node
+bundle: incentivo_extra
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

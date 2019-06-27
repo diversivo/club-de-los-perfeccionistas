@@ -1,0 +1,11 @@
+uuid: 440303c4-3495-464c-88bd-a1e3b17d872e
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.incentivo_extra
+id: node.incentivo_extra
+target_entity_type_id: node
+target_bundle: incentivo_extra
+default_langcode: site_default
+language_alterable: false

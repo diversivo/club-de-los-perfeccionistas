@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85587523615df984bc91de43f1a5977e",
+    "content-hash": "0238e59ba6fb50d2d26e9f51a7905283",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.103.0",
+            "version": "3.103.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "77ed156cc323efcc7912941440c622d5f12ffbce"
+                "reference": "2f6b31befa14d26a31dc8ce0adeac5f383db35d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/77ed156cc323efcc7912941440c622d5f12ffbce",
-                "reference": "77ed156cc323efcc7912941440c622d5f12ffbce",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2f6b31befa14d26a31dc8ce0adeac5f383db35d2",
+                "reference": "2f6b31befa14d26a31dc8ce0adeac5f383db35d2",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,19 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-06-27T18:15:25+00:00"
+            "time": "2019-06-28T18:43:32+00:00"
+        },
+        {
+            "name": "billboardjs/billboard",
+            "version": "1.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/naver/billboard.js/archive/1.6.2.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "billboard"
+            }
         },
         {
             "name": "brumann/polyfill-unserialize",
@@ -1279,6 +1291,21 @@
             ],
             "description": "Provides a way to patch Composer packages.",
             "time": "2018-10-24T15:51:16+00:00"
+        },
+        {
+            "name": "d3v4/d3",
+            "version": "4.9.1",
+            "dist": {
+                "type": "file",
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/d3/4.9.1/d3.js"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "d3v4"
+            }
         },
         {
             "name": "dflydev/dot-access-configuration",

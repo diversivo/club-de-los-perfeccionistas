@@ -5,8 +5,19 @@ dependencies:
   config:
     - field.field.node.tiendas.field_cliente_id
     - field.field.node.tiendas.field_distribuidora
+    - field.field.node.tiendas.field_exhibidores
+    - field.field.node.tiendas.field_gerente
+    - field.field.node.tiendas.field_jefe_de_ventas
+    - field.field.node.tiendas.field_planograma
+    - field.field.node.tiendas.field_portafolio
+    - field.field.node.tiendas.field_precios_
+    - field.field.node.tiendas.field_rotacion_
+    - field.field.node.tiendas.field_supervisor
+    - field.field.node.tiendas.field_supervisor_pepsico
     - field.field.node.tiendas.field_taxonomia
     - field.field.node.tiendas.field_tipologia
+    - field.field.node.tiendas.field_tp
+    - field.field.node.tiendas.field_validacion_de_tienda
     - field.field.node.tiendas.field_vendedor
     - node.type.tiendas
   module:
@@ -92,6 +103,50 @@ custom_sources:
     label: preventista
     value: preventista
     machine_name: preventista_csv
+  planograma:
+    label: planograma
+    value: planograma
+    machine_name: planograma
+  gerente:
+    label: gerente
+    value: gerente
+    machine_name: gerente
+  jefedeventas:
+    label: jefedeventas
+    value: jefedeventas
+    machine_name: jefedeventas
+  supervisor:
+    label: supervisor
+    value: supervisor
+    machine_name: supervisor
+  supervisorpepsico:
+    label: supervisorpepsico
+    value: supervisorpepsico
+    machine_name: supervisorpepsico
+  portafolio:
+    label: portafolio
+    value: portafolio
+    machine_name: portafolio
+  exhibidores:
+    label: exhibidores
+    value: exhibidores
+    machine_name: exhibidores
+  preciosvisibles:
+    label: preciosvisibles
+    value: preciosvisibles
+    machine_name: preciosvisibles
+  rotacionpreventiva:
+    label: rotacionpreventiva
+    value: rotacionpreventiva
+    machine_name: rotacionpreventiva
+  validacion:
+    label: validacion
+    value: validacion
+    machine_name: validacion
+  porcentajetiendaperfecta:
+    label: porcentajetiendaperfecta
+    value: porcentajetiendaperfecta
+    machine_name: porcentajetiendaperfecta
 mappings:
   -
     target: field_distribuidora
@@ -117,3 +172,59 @@ mappings:
     settings:
       reference_by: false
       autocreate: false
+  -
+    target: field_planograma
+    map:
+      value: planograma
+  -
+    target: field_gerente
+    map:
+      target_id: gerente
+    settings:
+      reference_by: false
+      autocreate: false
+  -
+    target: field_jefe_de_ventas
+    map:
+      target_id: jefedeventas
+    settings:
+      reference_by: false
+      autocreate: false
+  -
+    target: field_supervisor
+    map:
+      target_id: supervisor
+    settings:
+      reference_by: false
+      autocreate: false
+  -
+    target: field_supervisor_pepsico
+    map:
+      target_id: supervisorpepsico
+    settings:
+      reference_by: false
+      autocreate: false
+  -
+    target: field_portafolio
+    map:
+      value: portafolio
+  -
+    target: field_exhibidores
+    map:
+      value: exhibidores
+  -
+    target: field_precios_
+    map:
+      value: preciosvisibles
+  -
+    target: field_rotacion_
+    map:
+      value: rotacionpreventiva
+  -
+    target: field_validacion_de_tienda
+    map:
+      value: validacion
+  -
+    target: field_tp
+    map:
+      value: porcentajetiendaperfecta

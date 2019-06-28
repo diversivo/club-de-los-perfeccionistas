@@ -1,0 +1,24 @@
+uuid: 8b872f68-d1cd-4629-b46f-618a020c7bb6
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.status
+  module:
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__status_block_7
+theme: clubdlptheme
+region: indicadores_de_tienda_per
+weight: 0
+provider: null
+plugin: 'views_block:status-block_7'
+settings:
+  id: 'views_block:status-block_7'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

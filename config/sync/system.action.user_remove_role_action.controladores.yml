@@ -1,0 +1,14 @@
+uuid: 86619da4-c427-4e60-9df4-25c9af7e231e
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.controladores
+  module:
+    - user
+id: user_remove_role_action.controladores
+label: 'Elimina el rol Controladores al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: controladores

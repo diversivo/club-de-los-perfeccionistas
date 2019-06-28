@@ -1,0 +1,32 @@
+uuid: f452658d-5b70-4a13-be5e-56f4b323e3f9
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.indicadores_de_estandares
+  module:
+    - block_class
+    - blockgroup
+    - system
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: display-flex-row
+id: indicadoresdeestandares
+theme: clubdlptheme
+region: content
+weight: -10
+provider: null
+plugin: 'block_group:86a4aff7-cd82-4035-8bbe-ab7edb77f70c'
+settings:
+  id: 'block_group:86a4aff7-cd82-4035-8bbe-ab7edb77f70c'
+  label: 'Indicadores de estándares'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /status
+    negate: false
+    context_mapping: {  }

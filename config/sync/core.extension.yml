@@ -9,7 +9,15 @@ module:
   block: 0
   block_class: 0
   block_content: 0
+  blockgroup: 0
   breakpoint: 0
+  bulk_user_registration: 0
+  charts: 0
+  charts_api_example: 0
+  charts_billboard: 0
+  charts_c3: 0
+  charts_google: 0
+  charts_highcharts: 0
   ckeditor: 0
   color: 0
   comment: 0

@@ -16,7 +16,7 @@ third_party_settings:
 id: views_block__mensajes_al_usuario_block_1
 theme: clubdlptheme
 region: content
-weight: -7
+weight: -13
 provider: null
 plugin: 'views_block:mensajes_al_usuario-block_1'
 settings:

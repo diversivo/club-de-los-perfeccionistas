@@ -11,7 +11,7 @@ _core:
 id: clubdlptheme_help
 theme: clubdlptheme
 region: content
-weight: -8
+weight: -14
 provider: null
 plugin: help_block
 settings:

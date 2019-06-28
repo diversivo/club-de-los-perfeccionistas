@@ -1,0 +1,9 @@
+uuid: 5856029a-9996-485f-b50b-f3434d109093
+langcode: es
+status: true
+dependencies: {  }
+id: jefe_de_ventas
+label: 'Jefe de Ventas'
+weight: 9
+is_admin: null
+permissions: {  }

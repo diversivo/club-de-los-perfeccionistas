@@ -1,4 +1,4 @@
-uuid: b8a43feb-5888-4d24-bb9d-0a10ae7f91e7
+uuid: d4ef543d-8c6b-42a1-86ac-4155d2d7461a
 langcode: es
 status: true
 dependencies:
@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - clubdlptheme
-id: views_block__status_block_2
+id: views_block__status_block_10
 theme: clubdlptheme
-region: content
-weight: 0
+region: indicadores_de_estandares
+weight: -13
 provider: null
-plugin: 'views_block:status-block_2'
+plugin: 'views_block:status-block_10'
 settings:
-  id: 'views_block:status-block_2'
+  id: 'views_block:status-block_10'
   label: ''
   provider: views
   label_display: '0'

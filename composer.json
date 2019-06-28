@@ -18,11 +18,152 @@
             "type": "package",
             "package": {
                 "name": "javierdelpozolopez/club-dlp-theme",
-                "version": "1.0",
+                "version": "2.0",
                 "type": "drupal-theme",
                 "dist": {
-                    "url": "https://github.com/javierdelpozolopez/club-dlp-theme/archive/1.0.zip",
+                    "url": "https://github.com/javierdelpozolopez/club-dlp-theme/archive/2.0.zip",
                     "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "billboardjs/billboard",
+                "version": "1.6.2",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "billboard"
+                },
+                "dist": {
+                    "url": "https://github.com/naver/billboard.js/archive/1.6.2.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "d3v4/d3",
+                "version": "4.9.1",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "d3v4"
+                },
+                "dist": {
+                    "url": "https://cdnjs.cloudflare.com/ajax/libs/d3/4.9.1/d3.js",
+                    "type": "file"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "highcharts/highcharts",
+                "version": "6.1.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "highcharts"
+                },
+                "dist": {
+                    "url": "https://code.highcharts.com/6.1.0/highcharts.js",
+                    "type": "file"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "highcharts/more",
+                "version": "6.1.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "highcharts_more"
+                },
+                "dist": {
+                    "url": "https://code.highcharts.com/6.1.0/highcharts-more.js",
+                    "type": "file"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "highcharts/exporting",
+                "version": "6.1.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "highcharts_exporting"
+                },
+                "dist": {
+                    "url": "https://code.highcharts.com/6.1.0/modules/exporting.js",
+                    "type": "file"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "highcharts/export-data",
+                "version": "6.1.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "highcharts_export-data"
+                },
+                "dist": {
+                    "url": "https://code.highcharts.com/6.1.0/modules/export-data.js",
+                    "type": "file"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "highcharts/accessibility",
+                "version": "6.1.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "highcharts_accessibility"
+                },
+                "dist": {
+                    "url": "https://code.highcharts.com/6.1.0/modules/accessibility.js",
+                    "type": "file"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+                "package": {
+                "name": "highcharts/3d",
+                "version": "6.1.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "highcharts_3d"
+                },
+                "dist": {
+                    "url": "https://code.highcharts.com/6.1.0/highcharts-3d.js",
+                    "type": "file"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
                 }
             }
         }
@@ -37,6 +178,9 @@
         "drupal/auto_entitylabel": "^2.1@beta",
         "drupal/basic": "^2.0",
         "drupal/block_class": "^1.0",
+        "drupal/blockgroup": "^1.1",
+        "drupal/bulk_user_registration": "^1.1@alpha",
+        "drupal/charts": "^3.0@beta",
         "drupal/claro": "^1.0@alpha",
         "drupal/console": "^1.0.2",
         "drupal/content_sync": "^2.1",
@@ -53,7 +197,7 @@
         "drupal/views_bulk_operations": "^3.2",
         "drupal/views_fieldsets": "^3.3",
         "drush/drush": "^9.0.0",
-        "javierdelpozolopez/club-dlp-theme": "1.0",
+        "javierdelpozolopez/club-dlp-theme": "^2.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",

@@ -4,9 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_pagina_banner
+    - image.style.thumbnail
     - node.type.page
   module:
     - path
+    - svg_image
     - text
 _core:
   default_config_hash: sb0qCkzU_8mNq29NehYAU8jCBXWPLeX0UN8sYFVGVcw
@@ -30,6 +33,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_pagina_banner:
+    weight: 121
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
   langcode:
     type: language_select
     weight: 2

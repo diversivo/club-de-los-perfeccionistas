@@ -1,17 +1,13 @@
 uuid: 96eb471f-2bce-4018-80ec-d5c63ab43e18
 langcode: es
-status: true
+status: false
 dependencies:
-  content:
-    - 'block_content:basic:dd3b30b5-7392-44bd-96dc-d38f84fb1273'
-  module:
-    - block_content
   theme:
     - clubdlptheme
 id: hamburguermenu
 theme: clubdlptheme
 region: header
-weight: -12
+weight: -14
 provider: null
 plugin: 'block_content:dd3b30b5-7392-44bd-96dc-d38f84fb1273'
 settings:

@@ -1,22 +1,22 @@
-uuid: 98c5f364-5db8-4329-ba54-9566848aa4e3
+uuid: ce15aaf4-0d38-4ecd-b212-ec038bcd60ac
 langcode: es
 status: true
 dependencies:
   config:
-    - views.view.status
+    - views.view.indicadores_supervisor
   module:
     - system
     - views
   theme:
     - clubdlptheme
-id: views_block__status_block_8
+id: views_block__indicadores_supervisor_block_2
 theme: clubdlptheme
-region: indicadores_de_estandares
-weight: -15
+region: status_tiendas_validadas
+weight: -18
 provider: null
-plugin: 'views_block:status-block_8'
+plugin: 'views_block:indicadores_supervisor-block_2'
 settings:
-  id: 'views_block:status-block_8'
+  id: 'views_block:indicadores_supervisor-block_2'
   label: ''
   provider: views
   label_display: '0'
@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /status
+    pages: /indicadores-de-tienda-perfecta
     negate: false
     context_mapping: {  }

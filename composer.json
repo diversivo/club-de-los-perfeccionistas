@@ -200,6 +200,7 @@
         "drupal/svg_image": "^1.9",
         "drupal/user_csv_import": "^1.4",
         "drupal/video": "^1.4",
+        "drupal/views_aggregator": "1.x-dev",
         "drupal/views_bulk_operations": "^3.2",
         "drupal/views_fieldsets": "^3.3",
         "drupal/views_simple_math_field": "^1.9",

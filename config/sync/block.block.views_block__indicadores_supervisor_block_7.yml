@@ -1,21 +1,21 @@
-uuid: 718a13e9-2f96-4398-8f18-cb2152ad48f9
+uuid: 150fc615-49a7-451c-a5a5-38aab8e41cb4
 langcode: es
 status: true
 dependencies:
   config:
-    - views.view.status
+    - views.view.indicadores_supervisor
   module:
     - views
   theme:
     - clubdlptheme
-id: views_block__status_block_11
+id: views_block__indicadores_supervisor_block_7
 theme: clubdlptheme
 region: indicadores_de_estandares
-weight: -17
+weight: -16
 provider: null
-plugin: 'views_block:status-block_11'
+plugin: 'views_block:indicadores_supervisor-block_7'
 settings:
-  id: 'views_block:status-block_11'
+  id: 'views_block:indicadores_supervisor-block_7'
   label: ''
   provider: views
   label_display: '0'

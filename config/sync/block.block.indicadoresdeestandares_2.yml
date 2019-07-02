@@ -1,9 +1,9 @@
-uuid: dceec3ef-6e20-4291-96f7-b84ad9d7b919
+uuid: ea27aa37-79e2-4955-a85a-45439948b641
 langcode: es
 status: true
 dependencies:
   config:
-    - blockgroup.block_group_content.indicadores_de_tienda_per
+    - blockgroup.block_group_content.indicadores_de_estandares
   module:
     - block_class
     - blockgroup
@@ -12,16 +12,16 @@ dependencies:
     - clubdlptheme
 third_party_settings:
   block_class:
-    classes: grid-col-3
-id: indicadoresdetiendaperfecta
+    classes: grid-col-5
+id: indicadoresdeestandares_2
 theme: clubdlptheme
 region: content
-weight: -13
+weight: -2
 provider: null
-plugin: 'block_group:3c89e98b-a67c-4144-8995-4ae1c7a1ded4'
+plugin: 'block_group:86a4aff7-cd82-4035-8bbe-ab7edb77f70c'
 settings:
-  id: 'block_group:3c89e98b-a67c-4144-8995-4ae1c7a1ded4'
-  label: 'Indicadores de tienda perfecta'
+  id: 'block_group:86a4aff7-cd82-4035-8bbe-ab7edb77f70c'
+  label: 'Indicadores de estándares'
   provider: blockgroup
   label_display: '0'
 visibility:

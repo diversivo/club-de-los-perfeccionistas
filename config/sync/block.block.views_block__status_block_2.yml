@@ -12,7 +12,7 @@ dependencies:
 id: views_block__status_block_2
 theme: clubdlptheme
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: 'views_block:status-block_2'
 settings:
@@ -22,9 +22,10 @@ settings:
   label_display: '0'
   views_label: ''
   items_per_page: none
+  context_mapping: {  }
 visibility:
   request_path:
     id: request_path
-    pages: /status
+    pages: /indicadores-de-tienda-perfecta
     negate: false
     context_mapping: {  }

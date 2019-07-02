@@ -1,22 +1,22 @@
-uuid: d4ef543d-8c6b-42a1-86ac-4155d2d7461a
+uuid: b7588936-6fcc-4356-9da8-037e9721530a
 langcode: es
 status: true
 dependencies:
   config:
-    - views.view.status
+    - views.view.banner_main
   module:
     - system
     - views
   theme:
     - clubdlptheme
-id: views_block__status_block_10
+id: views_block__banner_main_block_1_2
 theme: clubdlptheme
-region: indicadores_de_estandares
-weight: -13
+region: content
+weight: 1
 provider: null
-plugin: 'views_block:status-block_10'
+plugin: 'views_block:banner_main-block_1'
 settings:
-  id: 'views_block:status-block_10'
+  id: 'views_block:banner_main-block_1'
   label: ''
   provider: views
   label_display: '0'
@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /status
+    pages: '<front>'
     negate: false
     context_mapping: {  }

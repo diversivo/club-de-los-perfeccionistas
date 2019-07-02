@@ -1,9 +1,9 @@
-uuid: dceec3ef-6e20-4291-96f7-b84ad9d7b919
+uuid: af513803-135c-4909-bcdc-ffebfa68c671
 langcode: es
 status: true
 dependencies:
   config:
-    - blockgroup.block_group_content.indicadores_de_tienda_per
+    - blockgroup.block_group_content.status_tiendas_validadas
   module:
     - block_class
     - blockgroup
@@ -12,16 +12,16 @@ dependencies:
     - clubdlptheme
 third_party_settings:
   block_class:
-    classes: grid-col-3
-id: indicadoresdetiendaperfecta
+    classes: grid-col-2
+id: statustiendasvalidadas
 theme: clubdlptheme
 region: content
-weight: -13
+weight: -3
 provider: null
-plugin: 'block_group:3c89e98b-a67c-4144-8995-4ae1c7a1ded4'
+plugin: 'block_group:7336ea30-c5b9-446e-837e-1662f11c2a28'
 settings:
-  id: 'block_group:3c89e98b-a67c-4144-8995-4ae1c7a1ded4'
-  label: 'Indicadores de tienda perfecta'
+  id: 'block_group:7336ea30-c5b9-446e-837e-1662f11c2a28'
+  label: 'Status tiendas validadas'
   provider: blockgroup
   label_display: '0'
 visibility:

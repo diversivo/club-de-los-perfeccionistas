@@ -79,6 +79,8 @@ module:
   user: 0
   user_csv_import: 0
   video: 0
+  views_aggregator: 0
+  views_aggregator_more_functions: 0
   views_bulk_operations: 0
   views_fieldsets: 0
   views_simple_math_field: 0

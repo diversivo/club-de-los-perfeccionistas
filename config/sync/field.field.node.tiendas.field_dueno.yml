@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.node.field_dueno
     - node.type.tiendas
+  content:
+    - 'user:user:18021af6-a857-487e-9be5-e27db92885a5'
 id: node.tiendas.field_dueno
 field_name: field_dueno
 entity_type: node
@@ -13,7 +15,9 @@ label: Dueño
 description: ''
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    target_uuid: 18021af6-a857-487e-9be5-e27db92885a5
 default_value_callback: ''
 settings:
   handler: 'default:user'
@@ -29,6 +33,8 @@ settings:
         supervisor_pepsico: '0'
         supervisor: '0'
         commi: '0'
+        jefe_de_ventas: '0'
+        controladores: '0'
     target_bundles: null
     sort:
       field: _none

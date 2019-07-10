@@ -185,7 +185,6 @@
         "drupal/charts": "^3.0@beta",
         "drupal/claro": "^1.0@alpha",
         "drupal/console": "^1.0.2",
-        "drupal/content_sync": "^2.1",
         "drupal/core": "^8.7.0",
         "drupal/feeds": "^3.0@alpha",
         "drupal/flysystem_s3": "^1.0@beta",

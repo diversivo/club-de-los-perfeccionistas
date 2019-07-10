@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.node.field_jefe_de_ventas
     - node.type.tiendas
+  content:
+    - 'user:user:81d44936-ff23-4ac4-829f-8a81d1558b89'
 id: node.tiendas.field_jefe_de_ventas
 field_name: field_jefe_de_ventas
 entity_type: node
@@ -13,7 +15,9 @@ label: 'Jefe de Ventas'
 description: ''
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    target_uuid: 81d44936-ff23-4ac4-829f-8a81d1558b89
 default_value_callback: ''
 settings:
   handler: 'default:user'

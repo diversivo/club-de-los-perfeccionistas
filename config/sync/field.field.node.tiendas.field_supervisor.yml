@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.node.field_supervisor
     - node.type.tiendas
+  content:
+    - 'user:user:ef157889-8b17-4d33-ab56-a05da4e486a9'
 id: node.tiendas.field_supervisor
 field_name: field_supervisor
 entity_type: node
@@ -13,7 +15,9 @@ label: Supervisor
 description: ''
 required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    target_uuid: ef157889-8b17-4d33-ab56-a05da4e486a9
 default_value_callback: ''
 settings:
   handler: 'default:user'
@@ -29,6 +33,8 @@ settings:
         preventista: '0'
         supervisor_pepsico: '0'
         commi: '0'
+        jefe_de_ventas: '0'
+        controladores: '0'
     target_bundles: null
     sort:
       field: _none

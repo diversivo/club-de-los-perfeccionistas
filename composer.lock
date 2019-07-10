@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2f518ef48c78aa3302a4190ee3d1fc9",
+    "content-hash": "076f3e93eb12b2716669db9001cbc54a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -124,16 +124,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.103.2",
+            "version": "3.106.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "364192641e880dd0a5c9f1a5852c425709e7159f"
+                "reference": "9baaba0eef80774ba18a13666e735c84b9e32b9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/364192641e880dd0a5c9f1a5852c425709e7159f",
-                "reference": "364192641e880dd0a5c9f1a5852c425709e7159f",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9baaba0eef80774ba18a13666e735c84b9e32b9a",
+                "reference": "9baaba0eef80774ba18a13666e735c84b9e32b9a",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-07-01T18:26:54+00:00"
+            "time": "2019-07-09T18:24:12+00:00"
         },
         {
             "name": "billboardjs/billboard",
@@ -3037,80 +3037,17 @@
             "time": "2017-07-28T17:11:54+00:00"
         },
         {
-            "name": "drupal/content_sync",
-            "version": "2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/content_sync.git",
-                "reference": "8.x-2.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/content_sync-8.x-2.1.zip",
-                "reference": "8.x-2.1",
-                "shasum": "6eab25cdeed48efdd608db40191243f0bd61db47"
-            },
-            "require": {
-                "drupal/core": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-2.x": "2.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-2.1",
-                    "datestamp": "1551619984",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Blanca.Esqueda",
-                    "homepage": "https://www.drupal.org/user/3082389"
-                },
-                {
-                    "name": "andrew.trebble",
-                    "homepage": "https://www.drupal.org/user/3159065"
-                },
-                {
-                    "name": "chris.smith",
-                    "homepage": "https://www.drupal.org/user/1812018"
-                },
-                {
-                    "name": "dabito",
-                    "homepage": "https://www.drupal.org/user/2400660"
-                },
-                {
-                    "name": "david4lim",
-                    "homepage": "https://www.drupal.org/user/934262"
-                }
-            ],
-            "description": "Allows to import/export content using YAML files",
-            "homepage": "https://www.drupal.org/project/content_sync",
-            "support": {
-                "source": "https://git.drupalcode.org/project/content_sync"
-            }
-        },
-        {
             "name": "drupal/core",
-            "version": "8.7.3",
+            "version": "8.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "b8ca92d4274048aff6bb020c329596c0e9b91269"
+                "reference": "a6d447d41545323f54c5034e551fb43b8050eca9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/b8ca92d4274048aff6bb020c329596c0e9b91269",
-                "reference": "b8ca92d4274048aff6bb020c329596c0e9b91269",
+                "url": "https://api.github.com/repos/drupal/core/zipball/a6d447d41545323f54c5034e551fb43b8050eca9",
+                "reference": "a6d447d41545323f54c5034e551fb43b8050eca9",
                 "shasum": ""
             },
             "require": {
@@ -3341,7 +3278,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-06-05T19:21:30+00:00"
+            "time": "2019-07-04T07:26:51+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -8619,12 +8556,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/Mink.git",
-                "reference": "6d637f7af4816c26ad8a943da2e3f7eef1231bea"
+                "reference": "7f7af8fc7649c4f74935ddd1a1fa82e205eeb25e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/Mink/zipball/6d637f7af4816c26ad8a943da2e3f7eef1231bea",
-                "reference": "6d637f7af4816c26ad8a943da2e3f7eef1231bea",
+                "url": "https://api.github.com/repos/minkphp/Mink/zipball/7f7af8fc7649c4f74935ddd1a1fa82e205eeb25e",
+                "reference": "7f7af8fc7649c4f74935ddd1a1fa82e205eeb25e",
                 "shasum": ""
             },
             "require": {
@@ -8670,7 +8607,7 @@
                 "testing",
                 "web"
             ],
-            "time": "2019-05-14T09:56:49+00:00"
+            "time": "2019-07-08T10:19:23+00:00"
         },
         {
             "name": "behat/mink-browserkit-driver",
@@ -10812,16 +10749,16 @@
         },
         {
             "name": "webflo/drupal-core-require-dev",
-            "version": "8.7.3",
+            "version": "8.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webflo/drupal-core-require-dev.git",
-                "reference": "75d11db587237934914a1cd150e81462665a19aa"
+                "reference": "6ab0d5c54addc3000ed7797bbcddec105d5f4dd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/75d11db587237934914a1cd150e81462665a19aa",
-                "reference": "75d11db587237934914a1cd150e81462665a19aa",
+                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/6ab0d5c54addc3000ed7797bbcddec105d5f4dd9",
+                "reference": "6ab0d5c54addc3000ed7797bbcddec105d5f4dd9",
                 "shasum": ""
             },
             "require": {
@@ -10829,7 +10766,7 @@
                 "behat/mink-goutte-driver": "^1.2",
                 "behat/mink-selenium2-driver": "1.3.x-dev",
                 "drupal/coder": "^8.3.1",
-                "drupal/core": "8.7.3",
+                "drupal/core": "8.7.4",
                 "jcalderonzumba/gastonjs": "^1.0.2",
                 "jcalderonzumba/mink-phantomjs-driver": "^0.3.1",
                 "justinrainbow/json-schema": "^5.2",
@@ -10846,7 +10783,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "require-dev dependencies from drupal/core",
-            "time": "2019-06-05T19:31:46+00:00"
+            "time": "2019-07-04T08:01:42+00:00"
         }
     ],
     "aliases": [],

@@ -5,6 +5,7 @@ dependencies:
   config:
     - views.view.indicadores_supervisor
   module:
+    - user
     - views
   theme:
     - clubdlptheme
@@ -21,4 +22,12 @@ settings:
   label_display: '0'
   views_label: ''
   items_per_page: none
-visibility: {  }
+  context_mapping: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      supervisor: supervisor
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

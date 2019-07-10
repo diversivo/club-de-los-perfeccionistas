@@ -48,7 +48,7 @@ display:
       pager:
         type: full
         options:
-          items_per_page: 50
+          items_per_page: 150
           offset: 0
           id: 0
           total_pages: 0
@@ -871,6 +871,17 @@ display:
         groups:
           1: AND
       display_extenders: {  }
+      footer:
+        result:
+          id: result
+          table: views
+          field: result
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          content: 'mostrando @start - @end de @total'
+          plugin_id: result
     cache_metadata:
       contexts:
         - 'languages:language_content'

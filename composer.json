@@ -18,10 +18,10 @@
             "type": "package",
             "package": {
                 "name": "javierdelpozolopez/club-dlp-theme",
-                "version": "3.5",
+                "version": "4.0",
                 "type": "drupal-theme",
                 "dist": {
-                    "url": "https://github.com/javierdelpozolopez/club-dlp-theme/archive/3.5.zip",
+                    "url": "https://github.com/javierdelpozolopez/club-dlp-theme/archive/4.0.zip",
                     "type": "zip"
                 }
             }
@@ -204,7 +204,7 @@
         "drupal/views_fieldsets": "^3.3",
         "drupal/views_simple_math_field": "^1.9",
         "drush/drush": "^9.0.0",
-        "javierdelpozolopez/club-dlp-theme": "^3.5",
+        "javierdelpozolopez/club-dlp-theme": "^4.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",

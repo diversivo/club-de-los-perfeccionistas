@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f684c67f4716fb29087e3021e1ebe876",
+    "content-hash": "c1921f152e1650d367c890010928b54c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5234,10 +5234,10 @@
         },
         {
             "name": "javierdelpozolopez/club-dlp-theme",
-            "version": "3.5",
+            "version": "4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/javierdelpozolopez/club-dlp-theme/archive/3.5.zip"
+                "url": "https://github.com/javierdelpozolopez/club-dlp-theme/archive/4.0.zip"
             },
             "type": "drupal-theme"
         },

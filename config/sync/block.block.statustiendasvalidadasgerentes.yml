@@ -17,7 +17,7 @@ third_party_settings:
 id: statustiendasvalidadasgerentes
 theme: clubdlptheme
 region: content
-weight: -41
+weight: -76
 provider: null
 plugin: 'block_group:886deba1-26f4-4060-a1fc-029d4669cb4a'
 settings:

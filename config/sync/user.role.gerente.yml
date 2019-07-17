@@ -7,5 +7,6 @@ label: Gerente
 weight: 3
 is_admin: null
 permissions:
+  - 'access user profiles'
   - 'create concursar_desafio_perfecto content'
   - 'view the administration theme'

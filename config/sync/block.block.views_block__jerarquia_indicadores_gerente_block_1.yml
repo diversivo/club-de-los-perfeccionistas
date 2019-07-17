@@ -1,0 +1,44 @@
+uuid: d0f510e1-478d-42e2-89bc-8c4b642a0fc7
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.jerarquia_indicadores_gerente
+  module:
+    - block_class
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: grid-item-tabla
+id: views_block__jerarquia_indicadores_gerente_block_1
+theme: clubdlptheme
+region: jerarquia_gerente
+weight: -55
+provider: null
+plugin: 'views_block:jerarquia_indicadores_gerente-block_1'
+settings:
+  id: 'views_block:jerarquia_indicadores_gerente-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/authenticated-gerente/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      controladores: controladores
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

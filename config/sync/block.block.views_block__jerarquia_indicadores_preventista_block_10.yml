@@ -1,0 +1,44 @@
+uuid: f32aadc5-b2c4-42e3-844e-f291c42502be
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.jerarquia_indicadores_preventista
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__jerarquia_indicadores_preventista_block_10
+theme: clubdlptheme
+region: jerarquia_preventista
+weight: -76
+provider: null
+plugin: 'views_block:jerarquia_indicadores_preventista-block_10'
+settings:
+  id: 'views_block:jerarquia_indicadores_preventista-block_10'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+      dueno: dueno
+      supervisor_pepsico: supervisor_pepsico
+      supervisor: supervisor
+      jefe_de_ventas: jefe_de_ventas
+      controladores: controladores
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: '/user/authenticated-preventista/*'
+    negate: false
+    context_mapping: {  }

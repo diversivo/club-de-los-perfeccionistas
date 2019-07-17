@@ -17,7 +17,7 @@ third_party_settings:
 id: indicadoresdetiendaperfectasupervisorespepsico
 theme: clubdlptheme
 region: content
-weight: -44
+weight: -79
 provider: null
 plugin: 'block_group:25726209-af69-4f5d-95f3-26bb505c51f0'
 settings:

@@ -1,0 +1,43 @@
+uuid: 17171671-3dce-414b-b68f-44eb6b9edc13
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.jerarquia_supervisor
+  module:
+    - block_class
+    - blockgroup
+    - system
+    - user
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: jerarquia__container
+id: jerarquiasupervisor
+theme: clubdlptheme
+region: content
+weight: -45
+provider: null
+plugin: 'block_group:f4a48ee6-1b19-482c-bc8b-96dbc9d806cb'
+settings:
+  id: 'block_group:f4a48ee6-1b19-482c-bc8b-96dbc9d806cb'
+  label: 'jerarquia supervisor'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/authenticated-supervisor/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+      dueno: dueno
+      supervisor_pepsico: supervisor_pepsico
+      controladores: controladores
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

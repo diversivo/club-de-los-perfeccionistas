@@ -17,7 +17,7 @@ third_party_settings:
 id: statustiendasvalidadasjefedeventa
 theme: clubdlptheme
 region: content
-weight: -39
+weight: -74
 provider: null
 plugin: 'block_group:9d7c7cc1-189f-4251-b68f-0bb974cad202'
 settings:

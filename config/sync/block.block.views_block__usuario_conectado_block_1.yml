@@ -31,7 +31,15 @@ visibility:
   user_role:
     id: user_role
     roles:
-      authenticated: authenticated
+      administrator: administrator
+      gerente: gerente
+      dueno: dueno
+      preventista: preventista
+      supervisor_pepsico: supervisor_pepsico
+      supervisor: supervisor
+      commi: commi
+      jefe_de_ventas: jefe_de_ventas
+      controladores: controladores
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'

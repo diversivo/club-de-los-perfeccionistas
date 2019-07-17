@@ -17,7 +17,7 @@ third_party_settings:
 id: statustiendasvalidadasduenos
 theme: clubdlptheme
 region: content
-weight: -40
+weight: -75
 provider: null
 plugin: 'block_group:33446cf2-1fdf-494e-886e-d8c05545d5fd'
 settings:

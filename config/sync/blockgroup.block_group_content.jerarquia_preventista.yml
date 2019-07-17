@@ -1,0 +1,6 @@
+uuid: a06a1431-4963-47b7-adba-93e05c9169b2
+langcode: es
+status: true
+dependencies: {  }
+id: jerarquia_preventista
+label: 'jerarquia preventista'

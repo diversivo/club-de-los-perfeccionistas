@@ -1,0 +1,40 @@
+uuid: a9cb6d7f-ac30-4972-bc58-48b3320b2bc3
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.jerarquia_indicadores_dueno
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__jerarquia_indicadores_dueno_block_8
+theme: clubdlptheme
+region: jerarquia_duenos
+weight: -54
+provider: null
+plugin: 'views_block:jerarquia_indicadores_dueno-block_8'
+settings:
+  id: 'views_block:jerarquia_indicadores_dueno-block_8'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/authenticated-dueno/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+      controladores: controladores
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

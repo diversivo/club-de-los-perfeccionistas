@@ -1,0 +1,6 @@
+uuid: c6b201b2-687f-4e51-9a76-5594d538621a
+langcode: es
+status: true
+dependencies: {  }
+id: jerarquia_jefe_de_ventas
+label: 'jerarquia jefe de ventas'

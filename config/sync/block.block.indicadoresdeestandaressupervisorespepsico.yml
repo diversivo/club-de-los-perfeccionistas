@@ -17,7 +17,7 @@ third_party_settings:
 id: indicadoresdeestandaressupervisorespepsico
 theme: clubdlptheme
 region: content
-weight: -33
+weight: -68
 provider: null
 plugin: 'block_group:6aad9194-f5d4-4476-8ef4-d1b13f61789d'
 settings:

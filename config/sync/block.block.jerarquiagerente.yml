@@ -1,0 +1,40 @@
+uuid: a509969c-e94a-4339-bdf2-b0d1064ffdeb
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.jerarquia_gerente
+  module:
+    - block_class
+    - blockgroup
+    - system
+    - user
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: jerarquia__container
+id: jerarquiagerente
+theme: clubdlptheme
+region: content
+weight: -49
+provider: null
+plugin: 'block_group:d5d84c80-53f2-41d4-8401-7020587c69f1'
+settings:
+  id: 'block_group:d5d84c80-53f2-41d4-8401-7020587c69f1'
+  label: 'jerarquia gerente'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      controladores: controladores
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: '/user/authenticated-gerente/*'
+    negate: false
+    context_mapping: {  }

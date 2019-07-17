@@ -17,7 +17,7 @@ third_party_settings:
 id: statustiendasvalidadassupervisorespepsico
 theme: clubdlptheme
 region: content
-weight: -38
+weight: -73
 provider: null
 plugin: 'block_group:2ce0c1ac-6758-46f1-b51d-f4db9b99f32a'
 settings:

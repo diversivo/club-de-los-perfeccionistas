@@ -7,5 +7,6 @@ label: Supervisor
 weight: 7
 is_admin: null
 permissions:
+  - 'access user profiles'
   - 'create concursar_desafio_perfecto content'
   - 'view the administration theme'

@@ -1,0 +1,46 @@
+uuid: 07f88246-3484-4589-9624-9fce3e862f1d
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.jerarquia_indicadores_supervisorpepsico
+  module:
+    - block_class
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: grid-item-tiendas-validadas
+id: views_block__jerarquia_indicadores_supervisorpepsico_block_2
+theme: clubdlptheme
+region: jerarquia_supervisor_pepsico
+weight: -84
+provider: null
+plugin: 'views_block:jerarquia_indicadores_supervisorpepsico-block_2'
+settings:
+  id: 'views_block:jerarquia_indicadores_supervisorpepsico-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+      dueno: dueno
+      jefe_de_ventas: jefe_de_ventas
+      controladores: controladores
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: '/user/authenticated-supervisorpepsico/*'
+    negate: false
+    context_mapping: {  }

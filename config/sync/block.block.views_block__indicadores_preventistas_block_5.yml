@@ -29,11 +29,12 @@ visibility:
     id: user_role
     roles:
       preventista: preventista
+      supervisor: supervisor
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'
   request_path:
     id: request_path
-    pages: /indicadores-de-tienda-perfecta
+    pages: "/indicadores-de-tienda-perfecta\r\n/user/*"
     negate: false
     context_mapping: {  }

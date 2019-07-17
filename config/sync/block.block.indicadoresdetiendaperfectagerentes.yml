@@ -17,7 +17,7 @@ third_party_settings:
 id: indicadoresdetiendaperfectagerentes
 theme: clubdlptheme
 region: content
-weight: -47
+weight: -82
 provider: null
 plugin: 'block_group:1669794b-7247-444b-a740-4c4d6ab3eae1'
 settings:

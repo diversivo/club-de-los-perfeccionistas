@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.tiendas.field_cliente_id
     - field.field.node.tiendas.field_distribuidora
     - field.field.node.tiendas.field_dueno
+    - field.field.node.tiendas.field_es_tienda_perfecta
     - field.field.node.tiendas.field_exhibidores
     - field.field.node.tiendas.field_gerente
     - field.field.node.tiendas.field_id_tienda
@@ -26,7 +27,7 @@ dependencies:
 label: PDV
 id: pdv
 description: ''
-import_period: 3600
+import_period: 43200
 fetcher: upload
 fetcher_configuration:
   allowed_extensions: 'txt csv tsv xml opml'
@@ -160,6 +161,10 @@ custom_sources:
     label: idtienda
     value: idtienda
     machine_name: idtienda
+  tiendaperfecta:
+    label: tiendaperfecta
+    value: tiendaperfecta
+    machine_name: tiendaperfecta
 mappings:
   -
     target: field_distribuidora
@@ -249,3 +254,7 @@ mappings:
     target: field_id_tienda
     map:
       value: idtienda
+  -
+    target: field_es_tienda_perfecta
+    map:
+      value: tiendaperfecta

@@ -10,6 +10,7 @@ permissions:
   - 'access content'
   - 'access content overview'
   - 'access toolbar'
+  - 'access user profiles'
   - 'administer content types'
   - 'administer node fields'
   - 'administer nodes'

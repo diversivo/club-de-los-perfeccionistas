@@ -17,7 +17,7 @@ third_party_settings:
 id: indicadoresdeestandaresjefesdeventa
 theme: clubdlptheme
 region: content
-weight: -34
+weight: -70
 provider: null
 plugin: 'block_group:5410a39b-cf33-43c4-b8c9-d5c94cedac15'
 settings:

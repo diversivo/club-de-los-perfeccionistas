@@ -1,0 +1,41 @@
+uuid: 210471e7-a5ba-454f-879f-2c489a4036b0
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.jerarquia_duenos
+  module:
+    - block_class
+    - blockgroup
+    - system
+    - user
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: jerarquia__container
+id: jerarquiaduenos
+theme: clubdlptheme
+region: content
+weight: -48
+provider: null
+plugin: 'block_group:68e9afd9-5947-4985-926b-3ac162cfdde3'
+settings:
+  id: 'block_group:68e9afd9-5947-4985-926b-3ac162cfdde3'
+  label: 'jerarquia dueños'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/authenticated-dueno/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+      controladores: controladores
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

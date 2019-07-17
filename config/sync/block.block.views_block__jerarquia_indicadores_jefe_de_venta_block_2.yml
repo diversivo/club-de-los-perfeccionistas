@@ -1,0 +1,45 @@
+uuid: b53736ca-0aac-4488-af3a-06b8cca321a6
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.jerarquia_indicadores_jefe_de_venta
+  module:
+    - block_class
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: grid-item-tiendas-validadas
+id: views_block__jerarquia_indicadores_jefe_de_venta_block_2
+theme: clubdlptheme
+region: jerarquia_jefe_de_ventas
+weight: -68
+provider: null
+plugin: 'views_block:jerarquia_indicadores_jefe_de_venta-block_2'
+settings:
+  id: 'views_block:jerarquia_indicadores_jefe_de_venta-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+      dueno: dueno
+      controladores: controladores
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: '/user/authenticated-jefedeventas/*'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,45 @@
+uuid: e0d7a9a3-1530-485a-8ce1-2da8b5c71089
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.jerarquia_preventista
+  module:
+    - block_class
+    - blockgroup
+    - system
+    - user
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: jerarquia__container
+id: jerarquiapreventista
+theme: clubdlptheme
+region: content
+weight: -44
+provider: null
+plugin: 'block_group:a06a1431-4963-47b7-adba-93e05c9169b2'
+settings:
+  id: 'block_group:a06a1431-4963-47b7-adba-93e05c9169b2'
+  label: 'jerarquia preventista'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/authenticated-preventista/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+      dueno: dueno
+      supervisor_pepsico: supervisor_pepsico
+      supervisor: supervisor
+      jefe_de_ventas: jefe_de_ventas
+      controladores: controladores
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

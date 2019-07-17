@@ -6,4 +6,5 @@ id: jefe_de_ventas
 label: 'Jefe de Ventas'
 weight: 9
 is_admin: null
-permissions: {  }
+permissions:
+  - 'access user profiles'

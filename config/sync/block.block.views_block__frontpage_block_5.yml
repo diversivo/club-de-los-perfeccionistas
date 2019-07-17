@@ -13,7 +13,7 @@ dependencies:
 id: views_block__frontpage_block_5
 theme: clubdlptheme
 region: content
-weight: -28
+weight: -61
 provider: null
 plugin: 'views_block:frontpage-block_5'
 settings:

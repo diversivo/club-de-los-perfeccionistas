@@ -6,4 +6,5 @@ id: controladores
 label: Controladores
 weight: 10
 is_admin: null
-permissions: {  }
+permissions:
+  - 'access user profiles'

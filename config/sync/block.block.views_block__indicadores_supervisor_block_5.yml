@@ -5,6 +5,7 @@ dependencies:
   config:
     - views.view.indicadores_supervisor
   module:
+    - system
     - user
     - views
   theme:
@@ -31,3 +32,8 @@ visibility:
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }

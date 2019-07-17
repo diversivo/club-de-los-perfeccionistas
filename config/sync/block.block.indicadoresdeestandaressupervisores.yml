@@ -1,0 +1,41 @@
+uuid: a505d245-589e-4192-8c96-bc03a27ff4ac
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.indicadores_de_estandares
+  module:
+    - block_class
+    - blockgroup
+    - system
+    - user
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: grid-col-5
+id: indicadoresdeestandaressupervisores
+theme: clubdlptheme
+region: content
+weight: -69
+provider: null
+plugin: 'block_group:86a4aff7-cd82-4035-8bbe-ab7edb77f70c'
+settings:
+  id: 'block_group:86a4aff7-cd82-4035-8bbe-ab7edb77f70c'
+  label: 'Indicadores de estándares supervisores'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      supervisor: supervisor
+      jefe_de_ventas: jefe_de_ventas
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

@@ -13,7 +13,7 @@ dependencies:
 id: views_block__indicadores_gerentes_block_1
 theme: clubdlptheme
 region: content
-weight: -18
+weight: -66
 provider: null
 plugin: 'views_block:indicadores_gerentes-block_1'
 settings:

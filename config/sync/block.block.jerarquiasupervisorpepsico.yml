@@ -1,0 +1,43 @@
+uuid: 1885b590-f95a-4e9a-9d16-4ee7c8c84253
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.jerarquia_supervisor_pepsico
+  module:
+    - block_class
+    - blockgroup
+    - system
+    - user
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: jerarquia__container
+id: jerarquiasupervisorpepsico
+theme: clubdlptheme
+region: content
+weight: -46
+provider: null
+plugin: 'block_group:9f9eb22f-2e19-4d15-954d-91695ea55a67'
+settings:
+  id: 'block_group:9f9eb22f-2e19-4d15-954d-91695ea55a67'
+  label: 'jerarquia supervisor pepsico'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/authenticated-supervisorpepsico/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+      dueno: dueno
+      jefe_de_ventas: jefe_de_ventas
+      controladores: controladores
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

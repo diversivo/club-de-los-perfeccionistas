@@ -17,7 +17,7 @@ third_party_settings:
 id: indicadoresdeestandarespreventistas
 theme: clubdlptheme
 region: content
-weight: -32
+weight: -67
 provider: null
 plugin: 'block_group:a463ce35-1338-4d7f-a03d-354421d83794'
 settings:
@@ -28,7 +28,7 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /indicadores-de-tienda-perfecta
+    pages: "/indicadores-de-tienda-perfecta\r\n/user/*"
     negate: false
     context_mapping: {  }
   user_role:

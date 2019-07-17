@@ -11,6 +11,7 @@ dependencies:
     - field.storage.node.field_portafolio
     - field.storage.node.field_precios_
     - field.storage.node.field_rotacion_
+    - field.storage.node.field_tp
     - field.storage.node.field_validacion_de_tienda
     - field.storage.node.field_vendedor
     - node.type.tiendas
@@ -784,71 +785,6 @@ display:
       display_extenders: {  }
       display_description: ''
       fields:
-        title:
-          id: title
-          table: node_field_data
-          field: title
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: Título
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: false
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          entity_type: node
-          entity_field: title
-          plugin_id: field
         field_cliente_id:
           id: field_cliente_id
           table: node__field_cliente_id
@@ -978,14 +914,14 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_exhibidores:
-          id: field_exhibidores
-          table: node__field_exhibidores
-          field: field_exhibidores
+        field_tp:
+          id: field_tp
+          table: node__field_tp
+          field: field_tp
           relationship: none
           group_type: group
           admin_label: ''
-          label: Estándares
+          label: '% de TP'
           exclude: false
           alter:
             alter_text: false
@@ -1021,10 +957,74 @@ display:
           element_label_colon: true
           element_wrapper_type: ''
           element_wrapper_class: ''
-          element_default_classes: false
+          element_default_classes: true
           empty: ''
-          hide_empty: true
-          empty_zero: true
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_portafolio:
+          id: field_portafolio
+          table: node__field_portafolio
+          field: field_portafolio
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: Portafolio
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
           type: boolean
@@ -1045,7 +1045,7 @@ display:
           set_precision: false
           precision: 0
           decimal: .
-          format_plural: 0
+          format_plural: false
           format_plural_string: !!binary MQNAY291bnQ=
           prefix: ''
           suffix: ''
@@ -1122,14 +1122,86 @@ display:
           prefix: ''
           suffix: ''
           plugin_id: field
-        field_portafolio:
-          id: field_portafolio
-          table: node__field_portafolio
-          field: field_portafolio
+        field_exhibidores:
+          id: field_exhibidores
+          table: node__field_exhibidores
+          field: field_exhibidores
           relationship: none
           group_type: group
           admin_label: ''
-          label: Portafolio
+          label: Estándares
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: false
+          empty: ''
+          hide_empty: true
+          empty_zero: true
+          hide_alter_empty: true
+          click_sort_column: value
+          type: boolean
+          settings:
+            format: custom
+            format_custom_true: '<i class="fas fa-star"></i>'
+            format_custom_false: '<i class="far fa-star"></i>'
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          set_precision: false
+          precision: 0
+          decimal: .
+          format_plural: 0
+          format_plural_string: !!binary MQNAY291bnQ=
+          prefix: ''
+          suffix: ''
+          plugin_id: field
+        field_rotacion_:
+          id: field_rotacion_
+          table: node__field_rotacion_
+          field: field_rotacion_
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'Rotación Preventiva'
           exclude: false
           alter:
             alter_text: false
@@ -1266,143 +1338,6 @@ display:
           prefix: ''
           suffix: ''
           plugin_id: field
-        field_rotacion_:
-          id: field_rotacion_
-          table: node__field_rotacion_
-          field: field_rotacion_
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: 'Rotación Preventiva'
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: boolean
-          settings:
-            format: custom
-            format_custom_true: '<i class="fas fa-star"></i>'
-            format_custom_false: '<i class="far fa-star"></i>'
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          set_precision: false
-          precision: 0
-          decimal: .
-          format_plural: false
-          format_plural_string: !!binary MQNAY291bnQ=
-          prefix: ''
-          suffix: ''
-          plugin_id: field
-        field_precios__1:
-          id: field_precios__1
-          table: node__field_precios_
-          field: field_precios_
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: 'Precios Visibles'
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: boolean
-          settings:
-            format: default
-            format_custom_true: ''
-            format_custom_false: ''
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
         field_jefe_de_ventas:
           id: field_jefe_de_ventas
           table: node__field_jefe_de_ventas
@@ -1532,6 +1467,7 @@ display:
         - 'config:field.storage.node.field_portafolio'
         - 'config:field.storage.node.field_precios_'
         - 'config:field.storage.node.field_rotacion_'
+        - 'config:field.storage.node.field_tp'
   block_10:
     display_plugin: block
     id: block_10

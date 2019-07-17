@@ -11,6 +11,7 @@ dependencies:
     - field.storage.node.field_precios_
     - field.storage.node.field_rotacion_
     - field.storage.node.field_supervisor
+    - field.storage.node.field_supervisor_pepsico
     - field.storage.node.field_validacion_de_tienda
     - field.storage.node.field_vendedor
     - node.type.tiendas
@@ -949,14 +950,14 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_exhibidores:
-          id: field_exhibidores
-          table: node__field_exhibidores
-          field: field_exhibidores
+        field_portafolio:
+          id: field_portafolio
+          table: node__field_portafolio
+          field: field_portafolio
           relationship: none
           group_type: group
           admin_label: ''
-          label: Estándares
+          label: Portafolio
           exclude: false
           alter:
             alter_text: false
@@ -992,10 +993,10 @@ display:
           element_label_colon: true
           element_wrapper_type: ''
           element_wrapper_class: ''
-          element_default_classes: false
+          element_default_classes: true
           empty: ''
-          hide_empty: true
-          empty_zero: true
+          hide_empty: false
+          empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
           type: boolean
@@ -1016,7 +1017,7 @@ display:
           set_precision: false
           precision: 0
           decimal: .
-          format_plural: 0
+          format_plural: false
           format_plural_string: !!binary MQNAY291bnQ=
           prefix: ''
           suffix: ''
@@ -1093,14 +1094,86 @@ display:
           prefix: ''
           suffix: ''
           plugin_id: field
-        field_portafolio:
-          id: field_portafolio
-          table: node__field_portafolio
-          field: field_portafolio
+        field_exhibidores:
+          id: field_exhibidores
+          table: node__field_exhibidores
+          field: field_exhibidores
           relationship: none
           group_type: group
           admin_label: ''
-          label: Portafolio
+          label: Estándares
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: false
+          empty: ''
+          hide_empty: true
+          empty_zero: true
+          hide_alter_empty: true
+          click_sort_column: value
+          type: boolean
+          settings:
+            format: custom
+            format_custom_true: '<i class="fas fa-star"></i>'
+            format_custom_false: '<i class="far fa-star"></i>'
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          set_precision: false
+          precision: 0
+          decimal: .
+          format_plural: 0
+          format_plural_string: !!binary MQNAY291bnQ=
+          prefix: ''
+          suffix: ''
+          plugin_id: field
+        field_rotacion_:
+          id: field_rotacion_
+          table: node__field_rotacion_
+          field: field_rotacion_
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'Rotación Preventiva'
           exclude: false
           alter:
             alter_text: false
@@ -1237,14 +1310,14 @@ display:
           prefix: ''
           suffix: ''
           plugin_id: field
-        field_rotacion_:
-          id: field_rotacion_
-          table: node__field_rotacion_
-          field: field_rotacion_
+        field_supervisor:
+          id: field_supervisor
+          table: node__field_supervisor
+          field: field_supervisor
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Rotación Preventiva'
+          label: Supervisor
           exclude: false
           alter:
             alter_text: false
@@ -1285,85 +1358,11 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: value
-          type: boolean
+          click_sort_column: target_id
+          type: entity_reference_label
           settings:
-            format: custom
-            format_custom_true: '<i class="fas fa-star"></i>'
-            format_custom_false: '<i class="far fa-star"></i>'
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          set_precision: false
-          precision: 0
-          decimal: .
-          format_plural: false
-          format_plural_string: !!binary MQNAY291bnQ=
-          prefix: ''
-          suffix: ''
-          plugin_id: field
-        field_precios__1:
-          id: field_precios__1
-          table: node__field_precios_
-          field: field_precios_
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: 'Precios Visibles'
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: boolean
-          settings:
-            format: default
-            format_custom_true: ''
-            format_custom_false: ''
-          group_column: value
+            link: true
+          group_column: target_id
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -1374,14 +1373,14 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_supervisor:
-          id: field_supervisor
-          table: node__field_supervisor
-          field: field_supervisor
+        field_supervisor_pepsico:
+          id: field_supervisor_pepsico
+          table: node__field_supervisor_pepsico
+          field: field_supervisor_pepsico
           relationship: none
           group_type: group
           admin_label: ''
-          label: Supervisor
+          label: 'Sup. Pepsico'
           exclude: false
           alter:
             alter_text: false
@@ -1492,6 +1491,7 @@ display:
         - 'config:field.storage.node.field_precios_'
         - 'config:field.storage.node.field_rotacion_'
         - 'config:field.storage.node.field_supervisor'
+        - 'config:field.storage.node.field_supervisor_pepsico'
   block_10:
     display_plugin: block
     id: block_10
@@ -2775,7 +2775,7 @@ display:
           set_precision: false
           precision: 0
           decimal: .
-          separator: ', '
+          separator: ''
           format_plural: 0
           format_plural_string: !!binary MQNAY291bnQ=
           prefix: ''
@@ -3042,7 +3042,7 @@ display:
           relationship: none
           group_type: count
           admin_label: ''
-          label: PORTAFOLIO
+          label: ''
           exclude: false
           alter:
             alter_text: true
@@ -3086,7 +3086,7 @@ display:
           set_precision: false
           precision: 0
           decimal: .
-          separator: ', '
+          separator: ''
           format_plural: 0
           format_plural_string: !!binary MQNAY291bnQ=
           prefix: ''
@@ -3328,7 +3328,7 @@ display:
           set_precision: false
           precision: 0
           decimal: .
-          separator: ', '
+          separator: ''
           format_plural: 0
           format_plural_string: !!binary MQNAY291bnQ=
           prefix: ''
@@ -3570,7 +3570,7 @@ display:
           set_precision: false
           precision: 0
           decimal: .
-          separator: ', '
+          separator: ''
           format_plural: 0
           format_plural_string: !!binary MQNAY291bnQ=
           prefix: ''
@@ -3768,7 +3768,7 @@ display:
           relationship: none
           group_type: count
           admin_label: ''
-          label: PLANOGRAMA
+          label: ''
           exclude: false
           alter:
             alter_text: true
@@ -3812,7 +3812,7 @@ display:
           set_precision: false
           precision: 0
           decimal: .
-          separator: ', '
+          separator: ''
           format_plural: 0
           format_plural_string: !!binary MQNAY291bnQ=
           prefix: ''

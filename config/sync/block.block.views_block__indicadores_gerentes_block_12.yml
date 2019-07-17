@@ -1,0 +1,39 @@
+uuid: 1563bc1e-1375-4110-ad7e-a6c81d67c846
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.indicadores_gerentes
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__indicadores_gerentes_block_12
+theme: clubdlptheme
+region: indicadores_de_tienda_perfecta_gerentes
+weight: 0
+provider: null
+plugin: 'views_block:indicadores_gerentes-block_12'
+settings:
+  id: 'views_block:indicadores_gerentes-block_12'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

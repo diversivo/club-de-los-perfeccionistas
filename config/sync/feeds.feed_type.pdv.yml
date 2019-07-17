@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.tiendas.field_dueno
     - field.field.node.tiendas.field_exhibidores
     - field.field.node.tiendas.field_gerente
+    - field.field.node.tiendas.field_id_tienda
     - field.field.node.tiendas.field_jefe_de_ventas
     - field.field.node.tiendas.field_precios_
     - field.field.node.tiendas.field_rotacion_
@@ -25,7 +26,7 @@ dependencies:
 label: PDV
 id: pdv
 description: ''
-import_period: 1800
+import_period: 3600
 fetcher: upload
 fetcher_configuration:
   allowed_extensions: 'txt csv tsv xml opml'
@@ -155,6 +156,10 @@ custom_sources:
     label: nombre
     value: nombre
     machine_name: nombre
+  idtienda:
+    label: idtienda
+    value: idtienda
+    machine_name: idtienda
 mappings:
   -
     target: field_distribuidora
@@ -240,3 +245,7 @@ mappings:
     target: field_tp
     map:
       value: porcentajetiendaperfecta
+  -
+    target: field_id_tienda
+    map:
+      value: idtienda

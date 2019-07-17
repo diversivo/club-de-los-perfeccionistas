@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.incentivo_extra.field_comentarios
     - field.field.node.incentivo_extra.field_incentivo_imagen
+    - field.field.node.incentivo_extra.field_sub_tipo
     - image.style.thumbnail
     - node.type.incentivo_extra
   module:
@@ -36,6 +37,12 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_sub_tipo:
+    weight: 124
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   langcode:
     type: language_select

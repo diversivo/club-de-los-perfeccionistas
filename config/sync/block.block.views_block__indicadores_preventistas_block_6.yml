@@ -1,0 +1,39 @@
+uuid: ade11315-460d-45c2-b551-e25f250c65a6
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.indicadores_preventistas
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__indicadores_preventistas_block_6
+theme: clubdlptheme
+region: indicadores_de_estandares_preventistas
+weight: -46
+provider: null
+plugin: 'views_block:indicadores_preventistas-block_6'
+settings:
+  id: 'views_block:indicadores_preventistas-block_6'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      preventista: preventista
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }

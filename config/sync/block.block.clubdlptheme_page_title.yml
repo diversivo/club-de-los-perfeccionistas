@@ -12,7 +12,7 @@ _core:
 id: clubdlptheme_page_title
 theme: clubdlptheme
 region: content
-weight: -19
+weight: -54
 provider: null
 plugin: page_title_block
 settings:

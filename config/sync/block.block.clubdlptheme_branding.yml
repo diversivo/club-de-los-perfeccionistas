@@ -12,7 +12,7 @@ _core:
 id: clubdlptheme_branding
 theme: clubdlptheme
 region: header
-weight: -16
+weight: -50
 provider: null
 plugin: system_branding_block
 settings:

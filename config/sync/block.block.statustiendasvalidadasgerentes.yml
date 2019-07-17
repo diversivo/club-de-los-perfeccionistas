@@ -1,0 +1,40 @@
+uuid: 3c6c19ba-233d-4b64-a289-a640bc095592
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.status_tiendas_validadas_gerentes
+  module:
+    - block_class
+    - blockgroup
+    - system
+    - user
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: grid-col-2
+id: statustiendasvalidadasgerentes
+theme: clubdlptheme
+region: content
+weight: -41
+provider: null
+plugin: 'block_group:886deba1-26f4-4060-a1fc-029d4669cb4a'
+settings:
+  id: 'block_group:886deba1-26f4-4060-a1fc-029d4669cb4a'
+  label: 'Status tiendas validadas gerentes'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

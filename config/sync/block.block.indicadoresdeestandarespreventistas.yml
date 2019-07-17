@@ -1,0 +1,40 @@
+uuid: a12ef2bf-6ea9-4d44-81aa-a8093e8d87e5
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.indicadores_de_estandares_preventistas
+  module:
+    - block_class
+    - blockgroup
+    - system
+    - user
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: grid-col-5
+id: indicadoresdeestandarespreventistas
+theme: clubdlptheme
+region: content
+weight: -32
+provider: null
+plugin: 'block_group:a463ce35-1338-4d7f-a03d-354421d83794'
+settings:
+  id: 'block_group:a463ce35-1338-4d7f-a03d-354421d83794'
+  label: 'Indicadores de estándares preventistas'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      preventista: preventista
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

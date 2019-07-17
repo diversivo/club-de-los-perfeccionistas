@@ -3,4 +3,4 @@ langcode: es
 status: true
 dependencies: {  }
 id: status_tiendas_validadas
-label: 'Status tiendas validadas'
+label: 'Status tiendas validadas supervisores'

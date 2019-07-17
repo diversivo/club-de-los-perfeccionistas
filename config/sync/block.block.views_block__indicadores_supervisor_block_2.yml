@@ -6,6 +6,7 @@ dependencies:
     - views.view.indicadores_supervisor
   module:
     - system
+    - user
     - views
   theme:
     - clubdlptheme
@@ -22,9 +23,17 @@ settings:
   label_display: '0'
   views_label: ''
   items_per_page: none
+  context_mapping: {  }
 visibility:
   request_path:
     id: request_path
     pages: /indicadores-de-tienda-perfecta
     negate: false
     context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      supervisor: supervisor
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

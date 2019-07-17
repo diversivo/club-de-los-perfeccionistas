@@ -2,6 +2,8 @@ uuid: 11ffdf21-ac25-46e3-81ef-9e6812309c00
 langcode: es
 status: true
 dependencies:
+  module:
+    - user
   theme:
     - clubdlptheme
 _core:
@@ -9,7 +11,7 @@ _core:
 id: clubdlptheme_local_tasks
 theme: clubdlptheme
 region: content
-weight: -17
+weight: -52
 provider: null
 plugin: local_tasks_block
 settings:
@@ -19,4 +21,11 @@ settings:
   label_display: '0'
   primary: true
   secondary: true
-visibility: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

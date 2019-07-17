@@ -6,34 +6,34 @@ dependencies:
     - field.storage.node.field_supervisor_pepsico
     - node.type.tiendas
   content:
-    - 'user:user:7044d5c5-138f-4e24-8545-2131e5e909d5'
+    - 'user:user:57fe6f19-ea1a-4277-8dfd-8a476d3f84b2'
 id: node.tiendas.field_supervisor_pepsico
 field_name: field_supervisor_pepsico
 entity_type: node
 bundle: tiendas
 label: 'Supervisor Pepsico'
 description: ''
-required: true
+required: false
 translatable: false
 default_value:
   -
-    target_uuid: 7044d5c5-138f-4e24-8545-2131e5e909d5
+    target_uuid: 57fe6f19-ea1a-4277-8dfd-8a476d3f84b2
 default_value_callback: ''
 settings:
   handler: 'default:user'
   handler_settings:
-    include_anonymous: true
+    include_anonymous: false
     filter:
       type: role
       role:
+        dueno: dueno
         supervisor_pepsico: supervisor_pepsico
+        supervisor: supervisor
+        jefe_de_ventas: jefe_de_ventas
         administrator: '0'
         gerente: '0'
-        dueno: '0'
         preventista: '0'
-        supervisor: '0'
         commi: '0'
-        jefe_de_ventas: '0'
         controladores: '0'
     target_bundles: null
     sort:

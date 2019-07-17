@@ -1,0 +1,30 @@
+uuid: 9640d3e5-495e-4159-ab4b-406e5cb38711
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.banner_main
+  module:
+    - system
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__banner_main_block_2
+theme: clubdlptheme
+region: content
+weight: -30
+provider: null
+plugin: 'views_block:banner_main-block_2'
+settings:
+  id: 'views_block:banner_main-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /incentivos-de-venta-y-concursos
+    negate: false
+    context_mapping: {  }

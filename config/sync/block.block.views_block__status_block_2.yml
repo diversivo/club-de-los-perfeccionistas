@@ -12,7 +12,7 @@ dependencies:
 id: views_block__status_block_2
 theme: clubdlptheme
 region: content
-weight: -1
+weight: -21
 provider: null
 plugin: 'views_block:status-block_2'
 settings:

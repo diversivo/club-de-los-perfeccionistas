@@ -26,6 +26,9 @@ settings:
     -
       value: Supervisor
       label: Supervisor
+    -
+      value: whatsappero
+      label: whatsappero
   allowed_values_function: ''
 module: options
 locked: false

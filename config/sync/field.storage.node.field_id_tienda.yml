@@ -1,0 +1,20 @@
+uuid: c3a5235f-97b4-4fae-a2b7-74eac5c73425
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_id_tienda
+field_name: field_id_tienda
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

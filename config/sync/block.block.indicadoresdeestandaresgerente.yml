@@ -1,0 +1,40 @@
+uuid: 87b9f8d1-4dba-4779-9b4a-0e5ebd5abadd
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.indicadores_de_estandares_gerente
+  module:
+    - block_class
+    - blockgroup
+    - system
+    - user
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: grid-col-5
+id: indicadoresdeestandaresgerente
+theme: clubdlptheme
+region: content
+weight: -36
+provider: null
+plugin: 'block_group:bc3fb7f2-38b2-466f-bf07-8cd029e350e6'
+settings:
+  id: 'block_group:bc3fb7f2-38b2-466f-bf07-8cd029e350e6'
+  label: 'Indicadores de estándares gerente'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

@@ -16,7 +16,7 @@ third_party_settings:
 id: views_block__usuario_conectado_block_1
 theme: clubdlptheme
 region: header
-weight: -15
+weight: -49
 provider: null
 plugin: 'views_block:usuario_conectado-block_1'
 settings:

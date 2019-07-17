@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.tiendas.field_es_tienda_perfecta
     - field.field.node.tiendas.field_exhibidores
     - field.field.node.tiendas.field_gerente
+    - field.field.node.tiendas.field_id_tienda
     - field.field.node.tiendas.field_jefe_de_ventas
     - field.field.node.tiendas.field_planograma
     - field.field.node.tiendas.field_portafolio
@@ -81,6 +82,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_id_tienda:
+    weight: 36
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
     region: content
   field_jefe_de_ventas:
     weight: 33

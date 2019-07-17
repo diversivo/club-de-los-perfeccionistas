@@ -1,0 +1,6 @@
+uuid: 5410a39b-cf33-43c4-b8c9-d5c94cedac15
+langcode: es
+status: true
+dependencies: {  }
+id: indicadores_de_estandares_jefes_de_venta
+label: 'Indicadores de estándares jefes de venta'

@@ -7,6 +7,13 @@ label: 'Community Manager'
 weight: 8
 is_admin: null
 permissions:
+  - 'access content'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer content types'
+  - 'administer node fields'
+  - 'administer nodes'
+  - 'administer users'
   - 'create desafio_perfecto content'
   - 'create mecanica content'
   - 'create noticias content'
@@ -24,4 +31,7 @@ permissions:
   - 'edit own desafio_perfecto content'
   - 'edit own mecanica content'
   - 'edit own noticias content'
+  - 'update any media'
+  - 'update media'
+  - 'view media'
   - 'view the administration theme'

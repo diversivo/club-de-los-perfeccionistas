@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_jefe_de_ventas
     - node.type.tiendas
   content:
-    - 'user:user:81d44936-ff23-4ac4-829f-8a81d1558b89'
+    - 'user:user:fe65f7d3-6cc7-4e12-9449-f7a691279900'
 id: node.tiendas.field_jefe_de_ventas
 field_name: field_jefe_de_ventas
 entity_type: node
@@ -17,7 +17,7 @@ required: false
 translatable: false
 default_value:
   -
-    target_uuid: 81d44936-ff23-4ac4-829f-8a81d1558b89
+    target_uuid: fe65f7d3-6cc7-4e12-9449-f7a691279900
 default_value_callback: ''
 settings:
   handler: 'default:user'
@@ -26,10 +26,10 @@ settings:
     filter:
       type: role
       role:
+        gerente: gerente
+        dueno: dueno
         jefe_de_ventas: jefe_de_ventas
         administrator: '0'
-        gerente: '0'
-        dueno: '0'
         preventista: '0'
         supervisor_pepsico: '0'
         supervisor: '0'

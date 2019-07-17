@@ -1,0 +1,6 @@
+uuid: 886deba1-26f4-4060-a1fc-029d4669cb4a
+langcode: es
+status: true
+dependencies: {  }
+id: status_tiendas_validadas_gerentes
+label: 'Status tiendas validadas gerentes'

@@ -13,7 +13,7 @@ dependencies:
 id: views_block__frontpage_block_4
 theme: clubdlptheme
 region: content
-weight: -7
+weight: -25
 provider: null
 plugin: 'views_block:frontpage-block_4'
 settings:
@@ -26,7 +26,7 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: /incentivos-de-venta-y-concursos
     negate: false
     context_mapping: {  }
   user_role:

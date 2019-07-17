@@ -6,18 +6,18 @@ dependencies:
     - field.storage.node.field_supervisor
     - node.type.tiendas
   content:
-    - 'user:user:ef157889-8b17-4d33-ab56-a05da4e486a9'
+    - 'user:user:64d000a5-83c0-4903-ad68-75ed357883fb'
 id: node.tiendas.field_supervisor
 field_name: field_supervisor
 entity_type: node
 bundle: tiendas
 label: Supervisor
 description: ''
-required: true
+required: false
 translatable: false
 default_value:
   -
-    target_uuid: ef157889-8b17-4d33-ab56-a05da4e486a9
+    target_uuid: 64d000a5-83c0-4903-ad68-75ed357883fb
 default_value_callback: ''
 settings:
   handler: 'default:user'
@@ -26,14 +26,14 @@ settings:
     filter:
       type: role
       role:
+        gerente: gerente
+        dueno: dueno
+        preventista: preventista
+        supervisor_pepsico: supervisor_pepsico
         supervisor: supervisor
+        jefe_de_ventas: jefe_de_ventas
         administrator: '0'
-        gerente: '0'
-        dueno: '0'
-        preventista: '0'
-        supervisor_pepsico: '0'
         commi: '0'
-        jefe_de_ventas: '0'
         controladores: '0'
     target_bundles: null
     sort:

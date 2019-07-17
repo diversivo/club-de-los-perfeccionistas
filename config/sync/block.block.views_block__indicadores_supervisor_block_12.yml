@@ -1,0 +1,39 @@
+uuid: c08c9b5e-cc5e-4fcd-ae5a-0d6dce26c583
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.indicadores_supervisor
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__indicadores_supervisor_block_12
+theme: clubdlptheme
+region: indicadores_de_tienda_per
+weight: -20
+provider: null
+plugin: 'views_block:indicadores_supervisor-block_12'
+settings:
+  id: 'views_block:indicadores_supervisor-block_12'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      supervisor: supervisor
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

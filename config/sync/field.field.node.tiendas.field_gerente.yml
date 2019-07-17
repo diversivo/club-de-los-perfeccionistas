@@ -6,29 +6,29 @@ dependencies:
     - field.storage.node.field_gerente
     - node.type.tiendas
   content:
-    - 'user:user:5c8eefb7-859d-4829-b696-01b556ab07cb'
+    - 'user:user:8136a6ef-3932-43d2-84a7-4a82201f04ed'
 id: node.tiendas.field_gerente
 field_name: field_gerente
 entity_type: node
 bundle: tiendas
 label: Gerente
 description: ''
-required: true
+required: false
 translatable: false
 default_value:
   -
-    target_uuid: 5c8eefb7-859d-4829-b696-01b556ab07cb
+    target_uuid: 8136a6ef-3932-43d2-84a7-4a82201f04ed
 default_value_callback: ''
 settings:
   handler: 'default:user'
   handler_settings:
-    include_anonymous: true
+    include_anonymous: false
     filter:
       type: role
       role:
         gerente: gerente
+        dueno: dueno
         administrator: '0'
-        dueno: '0'
         preventista: '0'
         supervisor_pepsico: '0'
         supervisor: '0'

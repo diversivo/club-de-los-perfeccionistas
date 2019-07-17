@@ -821,4 +821,4 @@ $settings['cache']['bins']['data'] = 'cache.backend.php';
 global $content_directories;
 $content_directories['sync'] = $app_root.'/content/sync';
 
-//$conf['feeds_process_limit'] = 6000;
+$conf['feeds_process_limit'] = 12000;

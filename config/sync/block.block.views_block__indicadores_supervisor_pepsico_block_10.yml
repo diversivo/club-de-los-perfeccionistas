@@ -1,0 +1,39 @@
+uuid: 4a3381b0-8f5a-4409-9273-2603b6236815
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.indicadores_supervisor_pepsico
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__indicadores_supervisor_pepsico_block_10
+theme: clubdlptheme
+region: indicadores_de_tienda_perfecta_supervisores_pepsico
+weight: 0
+provider: null
+plugin: 'views_block:indicadores_supervisor_pepsico-block_10'
+settings:
+  id: 'views_block:indicadores_supervisor_pepsico-block_10'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      supervisor_pepsico: supervisor_pepsico
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

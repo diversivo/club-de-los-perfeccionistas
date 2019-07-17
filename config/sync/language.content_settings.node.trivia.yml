@@ -1,0 +1,11 @@
+uuid: dd7928c0-4aab-4e70-8676-6269dfe4e7f4
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.trivia
+id: node.trivia
+target_entity_type_id: node
+target_bundle: trivia
+default_langcode: site_default
+language_alterable: false

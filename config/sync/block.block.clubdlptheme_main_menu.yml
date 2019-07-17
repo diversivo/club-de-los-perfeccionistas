@@ -35,6 +35,8 @@ visibility:
       preventista: preventista
       supervisor_pepsico: supervisor_pepsico
       supervisor: supervisor
+      jefe_de_ventas: jefe_de_ventas
+      controladores: controladores
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'

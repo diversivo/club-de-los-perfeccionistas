@@ -3,4 +3,4 @@ langcode: es
 status: true
 dependencies: {  }
 id: indicadores_de_estandares
-label: 'Indicadores de estándares'
+label: 'Indicadores de estándares supervisores'

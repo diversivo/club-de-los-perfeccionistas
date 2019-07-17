@@ -1,0 +1,6 @@
+uuid: 2ce0c1ac-6758-46f1-b51d-f4db9b99f32a
+langcode: es
+status: true
+dependencies: {  }
+id: status_tiendas_validadas_supervisores_pepsico
+label: 'Status tiendas validadas supervisores pepsico'

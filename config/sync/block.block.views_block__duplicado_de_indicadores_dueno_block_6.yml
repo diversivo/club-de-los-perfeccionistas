@@ -1,0 +1,39 @@
+uuid: f1dd7799-b82f-4fec-87f6-36acb83a19c8
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.duplicado_de_indicadores_dueno
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__duplicado_de_indicadores_dueno_block_6
+theme: clubdlptheme
+region: indicadores_de_estandares_duenos
+weight: -25
+provider: null
+plugin: 'views_block:duplicado_de_indicadores_dueno-block_6'
+settings:
+  id: 'views_block:duplicado_de_indicadores_dueno-block_6'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      dueno: dueno
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

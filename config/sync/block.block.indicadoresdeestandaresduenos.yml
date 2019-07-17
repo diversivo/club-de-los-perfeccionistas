@@ -1,0 +1,40 @@
+uuid: 339bbc84-5071-4b92-98c7-08f7ba008a95
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.indicadores_de_estandares_duenos
+  module:
+    - block_class
+    - blockgroup
+    - system
+    - user
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: grid-col-5
+id: indicadoresdeestandaresduenos
+theme: clubdlptheme
+region: content
+weight: -35
+provider: null
+plugin: 'block_group:9803e84c-17c0-4ff4-9315-3511cd9dd793'
+settings:
+  id: 'block_group:9803e84c-17c0-4ff4-9315-3511cd9dd793'
+  label: 'Indicadores de estándares dueños'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      dueno: dueno
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

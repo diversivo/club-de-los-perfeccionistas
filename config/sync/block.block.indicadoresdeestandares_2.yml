@@ -1,6 +1,6 @@
 uuid: ea27aa37-79e2-4955-a85a-45439948b641
 langcode: es
-status: true
+status: false
 dependencies:
   config:
     - blockgroup.block_group_content.indicadores_de_estandares
@@ -16,7 +16,7 @@ third_party_settings:
 id: indicadoresdeestandares_2
 theme: clubdlptheme
 region: content
-weight: -2
+weight: -13
 provider: null
 plugin: 'block_group:86a4aff7-cd82-4035-8bbe-ab7edb77f70c'
 settings:

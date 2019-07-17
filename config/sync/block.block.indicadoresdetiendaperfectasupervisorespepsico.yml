@@ -1,0 +1,40 @@
+uuid: 3f9c4fbf-05f2-4440-a1a8-5a332a2d2735
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.indicadores_de_tienda_perfecta_supervisores_pepsico
+  module:
+    - block_class
+    - blockgroup
+    - system
+    - user
+  theme:
+    - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: grid-col-3
+id: indicadoresdetiendaperfectasupervisorespepsico
+theme: clubdlptheme
+region: content
+weight: -44
+provider: null
+plugin: 'block_group:25726209-af69-4f5d-95f3-26bb505c51f0'
+settings:
+  id: 'block_group:25726209-af69-4f5d-95f3-26bb505c51f0'
+  label: 'Indicadores de tienda perfecta supervisores pepsico'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      supervisor_pepsico: supervisor_pepsico
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

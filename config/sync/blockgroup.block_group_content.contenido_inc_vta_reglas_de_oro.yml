@@ -1,0 +1,6 @@
+uuid: f57db640-0e2b-4c95-98c6-d65d05b1802c
+langcode: es
+status: true
+dependencies: {  }
+id: contenido_inc_vta_reglas_de_oro
+label: 'Contenido INC VTA - reglas de oro'

@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_cliente_id
     - field.storage.node.field_es_tienda_perfecta
     - field.storage.node.field_exhibidores
-    - field.storage.node.field_jefe_de_ventas
+    - field.storage.node.field_gerente
     - field.storage.node.field_planograma
     - field.storage.node.field_portafolio
     - field.storage.node.field_precios_
@@ -1309,14 +1309,14 @@ display:
           prefix: ''
           suffix: ''
           plugin_id: field
-        field_jefe_de_ventas:
-          id: field_jefe_de_ventas
-          table: node__field_jefe_de_ventas
-          field: field_jefe_de_ventas
+        field_gerente:
+          id: field_gerente
+          table: node__field_gerente
+          field: field_gerente
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Jefe de Ventas'
+          label: Gerente
           exclude: false
           alter:
             alter_text: false
@@ -1422,7 +1422,7 @@ display:
         - 'config:field.storage.node.field_cliente_id'
         - 'config:field.storage.node.field_es_tienda_perfecta'
         - 'config:field.storage.node.field_exhibidores'
-        - 'config:field.storage.node.field_jefe_de_ventas'
+        - 'config:field.storage.node.field_gerente'
         - 'config:field.storage.node.field_planograma'
         - 'config:field.storage.node.field_portafolio'
         - 'config:field.storage.node.field_precios_'

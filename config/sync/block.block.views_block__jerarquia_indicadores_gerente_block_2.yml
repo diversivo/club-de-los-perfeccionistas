@@ -32,7 +32,7 @@ visibility:
   user_role:
     id: user_role
     roles:
-      administrator: administrator
+      dueno: dueno
       controladores: controladores
     negate: false
     context_mapping:

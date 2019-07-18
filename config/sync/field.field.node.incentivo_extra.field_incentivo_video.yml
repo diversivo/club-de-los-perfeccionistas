@@ -1,17 +1,17 @@
-uuid: 3a54f267-24b9-4ef0-ac60-1597ff9c4f60
+uuid: 59468b41-db03-4644-826c-9bb12705c815
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_mecanica_video
-    - node.type.mecanica
+    - field.storage.node.field_incentivo_video
+    - node.type.incentivo_extra
   module:
     - video
-id: node.mecanica.field_mecanica_video
-field_name: field_mecanica_video
+id: node.incentivo_extra.field_incentivo_video
+field_name: field_incentivo_video
 entity_type: node
-bundle: mecanica
-label: 'Mecánica video'
+bundle: incentivo_extra
+label: 'incentivo video'
 description: ''
 required: false
 translatable: false

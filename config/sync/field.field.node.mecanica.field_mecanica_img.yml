@@ -11,7 +11,7 @@ id: node.mecanica.field_mecanica_img
 field_name: field_mecanica_img
 entity_type: node
 bundle: mecanica
-label: 'mecánica img'
+label: Banner
 description: ''
 required: false
 translatable: false

@@ -8,9 +8,9 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: 'Incentivo Extra'
+name: 'Incentivo de venta'
 type: incentivo_extra
-description: 'Envíe un incentivo extra.'
+description: 'Envíe un incentivo de venta.'
 help: ''
 new_revision: false
 preview_mode: 0

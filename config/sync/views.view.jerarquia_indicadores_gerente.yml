@@ -4,9 +4,9 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_cliente_id
-    - field.storage.node.field_dueno
     - field.storage.node.field_es_tienda_perfecta
     - field.storage.node.field_exhibidores
+    - field.storage.node.field_jefe_de_ventas
     - field.storage.node.field_planograma
     - field.storage.node.field_portafolio
     - field.storage.node.field_precios_
@@ -1374,14 +1374,14 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_dueno:
-          id: field_dueno
-          table: node__field_dueno
-          field: field_dueno
+        field_jefe_de_ventas:
+          id: field_jefe_de_ventas
+          table: node__field_jefe_de_ventas
+          field: field_jefe_de_ventas
           relationship: none
           group_type: group
           admin_label: ''
-          label: Dueño
+          label: 'Jefe de Ventas'
           exclude: false
           alter:
             alter_text: false
@@ -1485,9 +1485,9 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.field_cliente_id'
-        - 'config:field.storage.node.field_dueno'
         - 'config:field.storage.node.field_es_tienda_perfecta'
         - 'config:field.storage.node.field_exhibidores'
+        - 'config:field.storage.node.field_jefe_de_ventas'
         - 'config:field.storage.node.field_planograma'
         - 'config:field.storage.node.field_portafolio'
         - 'config:field.storage.node.field_precios_'

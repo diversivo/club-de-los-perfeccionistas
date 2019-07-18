@@ -1,0 +1,38 @@
+uuid: f07ffcb1-383c-42ec-9d9e-86b877b53bdc
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.contenido_informacion_y_capacitacion
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__contenido_informacion_y_capacitacion_block_5
+theme: clubdlptheme
+region: contenido_informacion_y_capacitacion
+weight: 0
+provider: null
+plugin: 'views_block:contenido_informacion_y_capacitacion-block_5'
+settings:
+  id: 'views_block:contenido_informacion_y_capacitacion-block_5'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /informacion-y-capacitacion
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

@@ -5,12 +5,15 @@ dependencies:
   config:
     - field.field.node.incentivo_extra.field_comentarios
     - field.field.node.incentivo_extra.field_incentivo_imagen
+    - field.field.node.incentivo_extra.field_incentivo_video
     - field.field.node.incentivo_extra.field_sub_tipo
+    - field.field.node.incentivo_extra.field_tipo_de_usuario
     - image.style.thumbnail
     - node.type.incentivo_extra
   module:
     - path
     - svg_image
+    - video
 id: node.incentivo_extra.default
 targetEntityType: node
 bundle: incentivo_extra
@@ -38,8 +41,25 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
+  field_incentivo_video:
+    weight: 125
+    settings:
+      file_directory: 'video-thumbnails/[date:custom:Y]-[date:custom:m]'
+      uri_scheme: public
+      file_extensions: 'mp4 ogv webm'
+      max_filesize: ''
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: video_upload
+    region: content
   field_sub_tipo:
     weight: 124
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_tipo_de_usuario:
+    weight: 126
     settings: {  }
     third_party_settings: {  }
     type: options_select
@@ -97,7 +117,7 @@ content:
     third_party_settings: {  }
   url_redirects:
     weight: 50
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }

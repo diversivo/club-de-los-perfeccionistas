@@ -29,6 +29,7 @@ visibility:
   user_role:
     id: user_role
     roles:
+      dueno: dueno
       controladores: controladores
     negate: false
     context_mapping:

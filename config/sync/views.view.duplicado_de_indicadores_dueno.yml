@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_cliente_id
     - field.storage.node.field_es_tienda_perfecta
     - field.storage.node.field_exhibidores
-    - field.storage.node.field_jefe_de_ventas
+    - field.storage.node.field_gerente
     - field.storage.node.field_planograma
     - field.storage.node.field_portafolio
     - field.storage.node.field_precios_
@@ -759,7 +759,41 @@ display:
       footer: {  }
       empty: {  }
       relationships: {  }
-      arguments: {  }
+      arguments:
+        field_dueno_target_id:
+          id: field_dueno_target_id
+          table: node__field_dueno
+          field: field_dueno_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          default_action: default
+          exception:
+            value: all
+            title_enable: false
+            title: All
+          title_enable: false
+          title: ''
+          default_argument_type: current_user
+          default_argument_options: {  }
+          default_argument_skip_url: false
+          summary_options:
+            base_path: ''
+            count: true
+            items_per_page: 25
+            override: false
+          summary:
+            sort_order: asc
+            number_of_records: 0
+            format: default_summary
+          specify_validation: false
+          validate:
+            type: none
+            fail: 'not found'
+          validate_options: {  }
+          break_phrase: false
+          not: false
+          plugin_id: numeric
       display_extenders: {  }
       group_by: true
     cache_metadata:
@@ -767,6 +801,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -1338,14 +1374,14 @@ display:
           prefix: ''
           suffix: ''
           plugin_id: field
-        field_jefe_de_ventas:
-          id: field_jefe_de_ventas
-          table: node__field_jefe_de_ventas
-          field: field_jefe_de_ventas
+        field_gerente:
+          id: field_gerente
+          table: node__field_gerente
+          field: field_gerente
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Jefe de Ventas'
+          label: Gerente
           exclude: false
           alter:
             alter_text: false
@@ -1403,7 +1439,7 @@ display:
           plugin_id: field
       defaults:
         fields: false
-        arguments: true
+        arguments: false
         filters: false
         filter_groups: false
         sorts: false
@@ -1447,22 +1483,76 @@ display:
             label: ''
           plugin_id: standard
       pager:
-        type: some
+        type: full
         options:
-          items_per_page: 150
+          items_per_page: 50
           offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: '‹ Anterior'
+            next: 'Siguiente >'
+            first: '« Primero'
+            last: 'Último »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Elementos por página'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- Todo -'
+            offset: false
+            offset_label: Desplazamiento
+          quantity: 5
+      arguments:
+        field_dueno_target_id:
+          id: field_dueno_target_id
+          table: node__field_dueno
+          field: field_dueno_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          default_action: default
+          exception:
+            value: all
+            title_enable: false
+            title: All
+          title_enable: false
+          title: ''
+          default_argument_type: current_user
+          default_argument_options: {  }
+          default_argument_skip_url: false
+          summary_options:
+            base_path: ''
+            count: true
+            items_per_page: 25
+            override: false
+          summary:
+            sort_order: asc
+            number_of_records: 0
+            format: default_summary
+          specify_validation: false
+          validate:
+            type: none
+            fail: 'not found'
+          validate_options: {  }
+          break_phrase: false
+          not: false
+          plugin_id: numeric
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
         - 'config:field.storage.node.field_cliente_id'
         - 'config:field.storage.node.field_es_tienda_perfecta'
         - 'config:field.storage.node.field_exhibidores'
-        - 'config:field.storage.node.field_jefe_de_ventas'
+        - 'config:field.storage.node.field_gerente'
         - 'config:field.storage.node.field_planograma'
         - 'config:field.storage.node.field_portafolio'
         - 'config:field.storage.node.field_precios_'
@@ -1663,6 +1753,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
@@ -2202,6 +2294,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
@@ -2442,6 +2536,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -2683,6 +2779,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -2928,6 +3026,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -3169,6 +3269,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -3410,6 +3512,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -3651,6 +3755,8 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:

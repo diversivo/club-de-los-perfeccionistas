@@ -1,5 +1,5 @@
 browser_sync:
-  enabled: true
+  enabled: false
   host: localhost
   port: 3000
 clear_registry: false
@@ -19,4 +19,6 @@ logo:
   use_default: false
   path: 's3://logo-club-dlp.png'
 favicon:
-  use_default: true
+  use_default: false
+  path: 's3://avagar-pepsico.png'
+  mimetype: image/png

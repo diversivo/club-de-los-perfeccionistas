@@ -1,0 +1,28 @@
+uuid: 08e4fe91-cf92-4644-8b5a-6d0959a06393
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.contenido_incentivos_de_venta
+  module:
+    - blockgroup
+    - system
+  theme:
+    - clubdlptheme
+id: contenidoincentivosdeventa
+theme: clubdlptheme
+region: content
+weight: 0
+provider: null
+plugin: 'block_group:e8d3e370-3d88-4668-bfcb-780d39e62f34'
+settings:
+  id: 'block_group:e8d3e370-3d88-4668-bfcb-780d39e62f34'
+  label: 'Contenido Incentivos de Venta'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /incentivos-de-venta-y-concursos
+    negate: false
+    context_mapping: {  }

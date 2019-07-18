@@ -1,0 +1,21 @@
+uuid: 1f9409b1-2767-4add-a787-94f09ba1d250
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_usuario
+    - node.type.incentivo_extra
+  module:
+    - options
+id: node.incentivo_extra.field_tipo_de_usuario
+field_name: field_tipo_de_usuario
+entity_type: node
+bundle: incentivo_extra
+label: 'Tipo de usuario'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

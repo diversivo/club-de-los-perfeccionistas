@@ -1,0 +1,28 @@
+uuid: 01b41b67-de1b-4434-b7e9-b1f366126a74
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.contenido_inc_vta_reglas_de_oro
+  module:
+    - blockgroup
+    - system
+  theme:
+    - clubdlptheme
+id: contenidoincvtareglasdeoro
+theme: clubdlptheme
+region: content
+weight: 0
+provider: null
+plugin: 'block_group:f57db640-0e2b-4c95-98c6-d65d05b1802c'
+settings:
+  id: 'block_group:f57db640-0e2b-4c95-98c6-d65d05b1802c'
+  label: 'Contenido INC VTA - reglas de oro'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /objetivos-y-reglas-de-oro
+    negate: false
+    context_mapping: {  }

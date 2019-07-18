@@ -265,7 +265,7 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 5
+          items_per_page: 4
           offset: 0
       sorts:
         changed:
@@ -275,7 +275,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          order: ASC
+          order: DESC
           exposed: false
           expose:
             label: ''
@@ -379,7 +379,7 @@ display:
         type: some
         options:
           items_per_page: 0
-          offset: 5
+          offset: 4
       sorts:
         changed:
           id: changed
@@ -388,7 +388,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          order: ASC
+          order: DESC
           exposed: false
           expose:
             label: ''

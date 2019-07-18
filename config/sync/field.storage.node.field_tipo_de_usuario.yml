@@ -12,14 +12,14 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: Gerente
-      label: Gerente
-    -
       value: Dueño
       label: Dueño
     -
-      value: Preventista
-      label: Preventista
+      value: Gerente
+      label: Gerente
+    -
+      value: 'Jefe de venta'
+      label: 'Jefe de venta'
     -
       value: 'Supervisor Pepsico'
       label: 'Supervisor Pepsico'
@@ -27,8 +27,14 @@ settings:
       value: Supervisor
       label: Supervisor
     -
+      value: Preventista
+      label: Preventista
+    -
       value: whatsappero
       label: whatsappero
+    -
+      value: Controlador
+      label: Controlador
   allowed_values_function: ''
 module: options
 locked: false

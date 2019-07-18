@@ -1,0 +1,28 @@
+uuid: 9d91e0e4-63d1-4c63-af2b-e2a20e8a6b55
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.contenido
+  module:
+    - blockgroup
+    - system
+  theme:
+    - clubdlptheme
+id: contenidodesafiosperfectos
+theme: clubdlptheme
+region: content
+weight: 0
+provider: null
+plugin: 'block_group:d4dc0f90-5103-451e-9f87-3dc9f720ddff'
+settings:
+  id: 'block_group:d4dc0f90-5103-451e-9f87-3dc9f720ddff'
+  label: 'Contenido Desafíos Perfectos'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /desafios-perfectos
+    negate: false
+    context_mapping: {  }

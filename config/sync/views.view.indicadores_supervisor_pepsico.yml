@@ -10,6 +10,7 @@ dependencies:
     - field.storage.node.field_portafolio
     - field.storage.node.field_precios_
     - field.storage.node.field_rotacion_
+    - field.storage.node.field_supervisor
     - field.storage.node.field_validacion_de_tienda
     - field.storage.node.field_vendedor
     - node.type.tiendas
@@ -1316,14 +1317,14 @@ display:
           prefix: ''
           suffix: ''
           plugin_id: field
-        field_vendedor:
-          id: field_vendedor
-          table: node__field_vendedor
-          field: field_vendedor
+        field_supervisor:
+          id: field_supervisor
+          table: node__field_supervisor
+          field: field_supervisor
           relationship: none
           group_type: group
           admin_label: ''
-          label: Preventista
+          label: Supervisor
           exclude: false
           alter:
             alter_text: false
@@ -1451,7 +1452,7 @@ display:
         - 'config:field.storage.node.field_portafolio'
         - 'config:field.storage.node.field_precios_'
         - 'config:field.storage.node.field_rotacion_'
-        - 'config:field.storage.node.field_vendedor'
+        - 'config:field.storage.node.field_supervisor'
   block_10:
     display_plugin: block
     id: block_10

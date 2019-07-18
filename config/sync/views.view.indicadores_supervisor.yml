@@ -1533,7 +1533,7 @@ display:
       pager:
         type: full
         options:
-          items_per_page: 100
+          items_per_page: 50
           offset: 0
           id: 0
           total_pages: null

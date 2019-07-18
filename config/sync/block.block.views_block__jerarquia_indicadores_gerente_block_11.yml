@@ -28,7 +28,7 @@ visibility:
   user_role:
     id: user_role
     roles:
-      administrator: administrator
+      gerente: gerente
       controladores: controladores
     negate: false
     context_mapping:

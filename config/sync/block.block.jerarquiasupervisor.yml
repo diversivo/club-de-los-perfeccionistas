@@ -37,6 +37,7 @@ visibility:
       gerente: gerente
       dueno: dueno
       supervisor_pepsico: supervisor_pepsico
+      jefe_de_ventas: jefe_de_ventas
       controladores: controladores
     negate: false
     context_mapping:

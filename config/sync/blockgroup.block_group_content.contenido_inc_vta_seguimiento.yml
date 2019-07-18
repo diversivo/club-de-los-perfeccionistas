@@ -1,0 +1,6 @@
+uuid: b3189363-b843-4ae3-88b4-d4529a553871
+langcode: es
+status: true
+dependencies: {  }
+id: contenido_inc_vta_seguimiento
+label: 'Contenido INC VTA - seguimiento'

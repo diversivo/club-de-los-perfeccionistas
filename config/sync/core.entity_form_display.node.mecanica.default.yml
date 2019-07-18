@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.field.node.mecanica.field_cuerpo
     - field.field.node.mecanica.field_mecanica_img
-    - field.field.node.mecanica.field_mecanica_video
+    - field.field.node.mecanica.field_tipo_de_usuario
     - field.field.node.mecanica.field_video_m
     - image.style.thumbnail
     - node.type.mecanica
@@ -41,20 +41,11 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
-  field_mecanica_video:
-    weight: 12
-    settings:
-      allowed_providers:
-        youtube: youtube
-        instagram: 0
-        vine: 0
-        facebook: 0
-        dailymotion: 0
-        vimeo: 0
-      file_directory: 'video-thumbnails/[date:custom:Y]-[date:custom:m]'
-      uri_scheme: s3
+  field_tipo_de_usuario:
+    weight: 26
+    settings: {  }
     third_party_settings: {  }
-    type: video_embed
+    type: options_select
     region: content
   field_video_m:
     weight: 11

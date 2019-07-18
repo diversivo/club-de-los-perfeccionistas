@@ -20,7 +20,7 @@ settings:
   id: 'views_block:jerarquia_indicadores_gerente-block_8'
   label: ''
   provider: views
-  label_display: visible
+  label_display: '0'
   views_label: ''
   items_per_page: none
   context_mapping: {  }
@@ -28,7 +28,7 @@ visibility:
   user_role:
     id: user_role
     roles:
-      administrator: administrator
+      dueno: dueno
       controladores: controladores
     negate: false
     context_mapping:

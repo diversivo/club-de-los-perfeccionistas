@@ -96,7 +96,7 @@ display:
               has_aggr_column: 1
               aggr_column: views_aggregator_sum
               aggr_par_column: ''
-          default: '-1'
+          default: feeds_item
           empty_table: 0
           group_aggregation:
             group_aggregation_results: '0'

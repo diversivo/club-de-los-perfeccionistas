@@ -21,6 +21,12 @@ settings:
       value: Seguimiento
       label: Seguimiento
     -
+      value: 'Todo lo que necesitas saber'
+      label: 'Todo lo que necesitas saber'
+    -
+      value: 'Que es portafolio'
+      label: 'Que es portafolio'
+    -
       value: genérico
       label: genérico
   allowed_values_function: ''

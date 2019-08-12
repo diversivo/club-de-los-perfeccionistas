@@ -3,7 +3,8 @@ langcode: es
 status: true
 dependencies:
   config:
-    - field.field.node.incentivo_extra.field_comentarios
+    - field.field.node.incentivo_extra.field_cuerpo
+    - field.field.node.incentivo_extra.field_documento_adjunto
     - field.field.node.incentivo_extra.field_incentivo_imagen
     - field.field.node.incentivo_extra.field_incentivo_video
     - field.field.node.incentivo_extra.field_sub_tipo
@@ -11,8 +12,10 @@ dependencies:
     - image.style.thumbnail
     - node.type.incentivo_extra
   module:
+    - file
     - path
     - svg_image
+    - text
     - video
 id: node.incentivo_extra.default
 targetEntityType: node
@@ -21,20 +24,27 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_comentarios:
-    weight: 123
+  field_cuerpo:
+    weight: 10
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
+    type: text_textarea
+    region: content
+  field_documento_adjunto:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
     region: content
   field_incentivo_imagen:
-    weight: 122
+    weight: 9
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -42,38 +52,38 @@ content:
     type: image_image
     region: content
   field_incentivo_video:
-    weight: 125
+    weight: 12
     settings:
-      file_directory: 'video-thumbnails/[date:custom:Y]-[date:custom:m]'
-      uri_scheme: public
       file_extensions: 'mp4 ogv webm'
+      file_directory: 'video-thumbnails/[date:custom:Y]-[date:custom:m]'
       max_filesize: ''
+      uri_scheme: s3
       progress_indicator: throbber
     third_party_settings: {  }
     type: video_upload
     region: content
   field_sub_tipo:
-    weight: 124
+    weight: 11
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_tipo_de_usuario:
-    weight: 126
+    weight: 13
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   langcode:
     type: language_select
-    weight: 2
+    weight: 1
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -81,26 +91,26 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 4
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 8
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 5
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -108,7 +118,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 2
     settings:
       match_operator: CONTAINS
       size: 60
@@ -116,7 +126,7 @@ content:
     region: content
     third_party_settings: {  }
   url_redirects:
-    weight: 50
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }

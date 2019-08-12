@@ -17,7 +17,7 @@ third_party_settings:
 id: views_block__jerarquia_indicadores_dueno_block_1
 theme: clubdlptheme
 region: jerarquia_duenos
-weight: -50
+weight: 11
 provider: null
 plugin: 'views_block:jerarquia_indicadores_dueno-block_1'
 settings:
@@ -37,6 +37,9 @@ visibility:
   user_role:
     id: user_role
     roles:
+      gerente: gerente
+      supervisor_pepsico: supervisor_pepsico
+      jefe_de_ventas: jefe_de_ventas
       controladores: controladores
     negate: false
     context_mapping:

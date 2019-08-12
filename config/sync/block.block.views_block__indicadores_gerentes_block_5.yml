@@ -5,11 +5,15 @@ dependencies:
   config:
     - views.view.indicadores_gerentes
   module:
+    - block_class
     - system
     - user
     - views
   theme:
     - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: portafolio-change
 id: views_block__indicadores_gerentes_block_5
 theme: clubdlptheme
 region: indicadores_de_estandares_gerente

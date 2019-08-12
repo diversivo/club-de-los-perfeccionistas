@@ -13,7 +13,7 @@ dependencies:
 id: views_block__jerarquia_indicadores_jefe_de_venta_block_11
 theme: clubdlptheme
 region: jerarquia_jefe_de_ventas
-weight: -69
+weight: 2
 provider: null
 plugin: 'views_block:jerarquia_indicadores_jefe_de_venta-block_11'
 settings:

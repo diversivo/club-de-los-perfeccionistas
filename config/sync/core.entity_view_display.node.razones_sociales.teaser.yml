@@ -1,0 +1,25 @@
+uuid: 1c62f3c7-79e0-416c-937a-5d920afc7ead
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.razones_sociales.field_codigo_de_cliente
+    - field.field.node.razones_sociales.field_nombre_del_cliente
+    - node.type.razones_sociales
+  module:
+    - user
+id: node.razones_sociales.teaser
+targetEntityType: node
+bundle: razones_sociales
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_codigo_de_cliente: true
+  field_nombre_del_cliente: true
+  langcode: true

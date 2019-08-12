@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.tiendas.feeds_item
     - field.field.node.tiendas.field_cliente_id
+    - field.field.node.tiendas.field_cumplimiento_surtido_ideal
     - field.field.node.tiendas.field_distribuidora
     - field.field.node.tiendas.field_dueno
     - field.field.node.tiendas.field_es_tienda_perfecta
@@ -15,12 +16,13 @@ dependencies:
     - field.field.node.tiendas.field_planograma
     - field.field.node.tiendas.field_portafolio
     - field.field.node.tiendas.field_precios_
+    - field.field.node.tiendas.field_precios_correctos
+    - field.field.node.tiendas.field_razon_social
     - field.field.node.tiendas.field_rotacion_
     - field.field.node.tiendas.field_supervisor
     - field.field.node.tiendas.field_supervisor_pepsico
     - field.field.node.tiendas.field_taxonomia
     - field.field.node.tiendas.field_tipologia
-    - field.field.node.tiendas.field_tp
     - field.field.node.tiendas.field_validacion_de_tienda
     - field.field.node.tiendas.field_vendedor
     - node.type.tiendas
@@ -39,6 +41,13 @@ content:
     third_party_settings: {  }
   field_cliente_id:
     weight: 26
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_cumplimiento_surtido_ideal:
+    weight: 38
     settings:
       placeholder: ''
     third_party_settings: {  }
@@ -117,6 +126,22 @@ content:
     third_party_settings: {  }
     type: options_buttons
     region: content
+  field_precios_correctos:
+    weight: 37
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_razon_social:
+    weight: 39
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_rotacion_:
     weight: 30
     settings: {  }
@@ -152,13 +177,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
-    region: content
-  field_tp:
-    weight: 32
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-    type: number
     region: content
   field_validacion_de_tienda:
     weight: 34

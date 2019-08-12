@@ -1,0 +1,60 @@
+uuid: 8130d776-b2d5-4163-afae-dae4ca18f502
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.base_field_override.node.razones_sociales.title
+    - field.field.node.razones_sociales.field_codigo_de_cliente
+    - field.field.node.razones_sociales.field_nombre_del_cliente
+    - node.type.razones_sociales
+  module:
+    - node
+label: 'Razones Sociales'
+id: razones_sociales
+description: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ;
+  no_headers: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  update_existing: 0
+  update_non_existent: _delete
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+  authorize: true
+  skip_hash_check: false
+  values:
+    type: razones_sociales
+custom_sources:
+  codigodecliente:
+    label: codigodecliente
+    value: codigodecliente
+    machine_name: codigodecliente
+  nombredelcliente:
+    label: nombredelcliente
+    value: nombredelcliente
+    machine_name: nombredelcliente
+mappings:
+  -
+    target: field_codigo_de_cliente
+    map:
+      value: codigodecliente
+  -
+    target: field_nombre_del_cliente
+    map:
+      value: nombredelcliente
+    unique: {  }
+  -
+    target: title
+    map:
+      value: codigodecliente
+    unique:
+      value: '1'

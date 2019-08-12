@@ -22,7 +22,7 @@ default_value_callback: ''
 settings:
   handler: 'default:user'
   handler_settings:
-    include_anonymous: true
+    include_anonymous: false
     filter:
       type: role
       role:
@@ -32,9 +32,9 @@ settings:
         supervisor_pepsico: supervisor_pepsico
         supervisor: supervisor
         jefe_de_ventas: jefe_de_ventas
+        controladores: controladores
         administrator: '0'
         commi: '0'
-        controladores: '0'
     target_bundles: null
     sort:
       field: _none

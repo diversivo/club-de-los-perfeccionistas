@@ -13,13 +13,13 @@ settings:
   allowed_values:
     -
       value: Autoservicio
-      label: Autoservicio
+      label: AS
     -
       value: Kiosco
-      label: Kiosco
+      label: Kio
     -
       value: Tradicional
-      label: Tradicional
+      label: Tra
     -
       value: 'Centro de Entrenamiento'
       label: 'Centro de Entrenamiento'

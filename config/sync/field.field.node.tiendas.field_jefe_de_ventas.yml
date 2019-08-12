@@ -28,13 +28,13 @@ settings:
       role:
         gerente: gerente
         dueno: dueno
+        supervisor_pepsico: supervisor_pepsico
+        supervisor: supervisor
         jefe_de_ventas: jefe_de_ventas
+        controladores: controladores
         administrator: '0'
         preventista: '0'
-        supervisor_pepsico: '0'
-        supervisor: '0'
         commi: '0'
-        controladores: '0'
     target_bundles: null
     sort:
       field: _none

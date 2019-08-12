@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.base_field_override.node.tiendas.title
     - field.field.node.tiendas.field_cliente_id
+    - field.field.node.tiendas.field_cumplimiento_surtido_ideal
     - field.field.node.tiendas.field_distribuidora
     - field.field.node.tiendas.field_dueno
     - field.field.node.tiendas.field_es_tienda_perfecta
@@ -13,12 +14,13 @@ dependencies:
     - field.field.node.tiendas.field_id_tienda
     - field.field.node.tiendas.field_jefe_de_ventas
     - field.field.node.tiendas.field_precios_
+    - field.field.node.tiendas.field_precios_correctos
+    - field.field.node.tiendas.field_razon_social
     - field.field.node.tiendas.field_rotacion_
     - field.field.node.tiendas.field_supervisor
     - field.field.node.tiendas.field_supervisor_pepsico
     - field.field.node.tiendas.field_taxonomia
     - field.field.node.tiendas.field_tipologia
-    - field.field.node.tiendas.field_tp
     - field.field.node.tiendas.field_validacion_de_tienda
     - field.field.node.tiendas.field_vendedor
     - node.type.tiendas
@@ -27,7 +29,7 @@ dependencies:
 label: PDV
 id: pdv
 description: ''
-import_period: 43200
+import_period: -1
 fetcher: upload
 fetcher_configuration:
   allowed_extensions: 'txt csv tsv xml opml'
@@ -39,7 +41,7 @@ parser_configuration:
   line_limit: 100
 processor: 'entity:node'
 processor_configuration:
-  update_existing: 2
+  update_existing: 1
   update_non_existent: _delete
   expire: -1
   owner_feed_author: false
@@ -165,6 +167,14 @@ custom_sources:
     label: tiendaperfecta
     value: tiendaperfecta
     machine_name: tiendaperfecta
+  precioscorrectos:
+    label: precioscorrectos
+    value: precioscorrectos
+    machine_name: precioscorrectos
+  cumplimientosurtidoideal:
+    label: cumplimientosurtidoideal
+    value: cumplimientosurtidoideal
+    machine_name: cumplimientosurtidoideal
 mappings:
   -
     target: field_distribuidora
@@ -247,10 +257,6 @@ mappings:
     map:
       value: validacion
   -
-    target: field_tp
-    map:
-      value: porcentajetiendaperfecta
-  -
     target: field_id_tienda
     map:
       value: idtienda
@@ -258,3 +264,19 @@ mappings:
     target: field_es_tienda_perfecta
     map:
       value: tiendaperfecta
+  -
+    target: field_precios_correctos
+    map:
+      value: precioscorrectos
+  -
+    target: field_cumplimiento_surtido_ideal
+    map:
+      value: cumplimientosurtidoideal
+  -
+    target: field_razon_social
+    map:
+      target_id: cliente_csva
+    settings:
+      reference_by: field_codigo_de_cliente
+      feeds_item: guid
+      autocreate: 0

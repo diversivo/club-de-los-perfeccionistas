@@ -15,7 +15,7 @@ type: image
 settings:
   uri_scheme: s3
   default_image:
-    uuid: 3942203e-21be-438c-be50-087f45093793
+    uuid: ''
     alt: ''
     title: ''
     width: 225

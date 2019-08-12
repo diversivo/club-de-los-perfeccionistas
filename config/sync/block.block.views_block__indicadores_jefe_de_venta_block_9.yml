@@ -1,0 +1,39 @@
+uuid: e792bbf0-9e19-4994-bdca-6bab4217ffd3
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.indicadores_jefe_de_venta
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__indicadores_jefe_de_venta_block_9
+theme: clubdlptheme
+region: indicadores_de_estandares_jefes_de_venta
+weight: 0
+provider: null
+plugin: 'views_block:indicadores_jefe_de_venta-block_9'
+settings:
+  id: 'views_block:indicadores_jefe_de_venta-block_9'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /indicadores-de-tienda-perfecta
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      jefe_de_ventas: jefe_de_ventas
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

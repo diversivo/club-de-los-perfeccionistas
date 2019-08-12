@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.incentivo_extra.field_comentarios
+    - field.field.node.incentivo_extra.field_cuerpo
     - field.field.node.incentivo_extra.field_incentivo_imagen
+    - field.field.node.incentivo_extra.field_incentivo_video
+    - field.field.node.incentivo_extra.field_sub_tipo
+    - field.field.node.incentivo_extra.field_tipo_de_usuario
     - node.type.incentivo_extra
   module:
     - user
@@ -20,6 +23,9 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
-  field_comentarios: true
+  field_cuerpo: true
   field_incentivo_imagen: true
+  field_incentivo_video: true
+  field_sub_tipo: true
+  field_tipo_de_usuario: true
   langcode: true

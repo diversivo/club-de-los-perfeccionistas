@@ -5,15 +5,19 @@ dependencies:
   config:
     - views.view.jerarquia_indicadores_supervisor
   module:
+    - block_class
     - system
     - user
     - views
   theme:
     - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: portafolio-change
 id: views_block__jerarquia_indicadores_supervisor_block_5
 theme: clubdlptheme
 region: jerarquia_supervisor
-weight: -77
+weight: 5
 provider: null
 plugin: 'views_block:jerarquia_indicadores_supervisor-block_5'
 settings:

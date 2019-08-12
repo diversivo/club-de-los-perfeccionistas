@@ -17,7 +17,7 @@ third_party_settings:
 id: views_block__jerarquia_indicadores_supervisor_block_2
 theme: clubdlptheme
 region: jerarquia_supervisor
-weight: -79
+weight: 3
 provider: null
 plugin: 'views_block:jerarquia_indicadores_supervisor-block_2'
 settings:

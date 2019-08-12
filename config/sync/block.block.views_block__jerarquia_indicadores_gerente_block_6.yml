@@ -13,7 +13,7 @@ dependencies:
 id: views_block__jerarquia_indicadores_gerente_block_6
 theme: clubdlptheme
 region: jerarquia_gerente
-weight: -56
+weight: 9
 provider: null
 plugin: 'views_block:jerarquia_indicadores_gerente-block_6'
 settings:
@@ -28,7 +28,6 @@ visibility:
   user_role:
     id: user_role
     roles:
-      dueno: dueno
       controladores: controladores
     negate: false
     context_mapping:

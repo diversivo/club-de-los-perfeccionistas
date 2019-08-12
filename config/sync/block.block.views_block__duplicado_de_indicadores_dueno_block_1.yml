@@ -1,4 +1,4 @@
-uuid: ae2cea17-2ccd-4469-af74-2d276155e226
+uuid: 65b54c95-d23f-4f08-a02a-a44ea2db7ca3
 langcode: es
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
 id: views_block__duplicado_de_indicadores_dueno_block_1
 theme: clubdlptheme
 region: content
-weight: -65
+weight: 0
 provider: null
 plugin: 'views_block:duplicado_de_indicadores_dueno-block_1'
 settings:

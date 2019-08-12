@@ -1,16 +1,17 @@
-uuid: ab18b6ab-5270-42fc-a210-7d0c5d74a14f
+uuid: e2fef280-80c1-491d-bb49-90a497ab9a52
 langcode: es
 status: true
 dependencies:
   module:
     - node
-id: node.field_tp
-field_name: field_tp
+id: node.field_nombre_del_cliente
+field_name: field_nombre_del_cliente
 entity_type: node
-type: integer
+type: string
 settings:
-  unsigned: false
-  size: normal
+  max_length: 100
+  is_ascii: false
+  case_sensitive: false
 module: core
 locked: false
 cardinality: 1

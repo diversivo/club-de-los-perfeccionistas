@@ -1,0 +1,43 @@
+uuid: 7bb05206-a5ab-49bc-8958-37c5504d4666
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.jerarquia_indicadores_supervisor
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__jerarquia_indicadores_supervisor_block_9
+theme: clubdlptheme
+region: jerarquia_supervisor
+weight: 10
+provider: null
+plugin: 'views_block:jerarquia_indicadores_supervisor-block_9'
+settings:
+  id: 'views_block:jerarquia_indicadores_supervisor-block_9'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/authenticated-supervisor/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      gerente: gerente
+      dueno: dueno
+      supervisor_pepsico: supervisor_pepsico
+      jefe_de_ventas: jefe_de_ventas
+      controladores: controladores
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

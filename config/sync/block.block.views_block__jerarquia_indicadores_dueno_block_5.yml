@@ -5,15 +5,19 @@ dependencies:
   config:
     - views.view.jerarquia_indicadores_dueno
   module:
+    - block_class
     - system
     - user
     - views
   theme:
     - clubdlptheme
+third_party_settings:
+  block_class:
+    classes: portafolio-change
 id: views_block__jerarquia_indicadores_dueno_block_5
 theme: clubdlptheme
 region: jerarquia_duenos
-weight: -55
+weight: 5
 provider: null
 plugin: 'views_block:jerarquia_indicadores_dueno-block_5'
 settings:
@@ -33,6 +37,9 @@ visibility:
   user_role:
     id: user_role
     roles:
+      gerente: gerente
+      supervisor_pepsico: supervisor_pepsico
+      jefe_de_ventas: jefe_de_ventas
       controladores: controladores
     negate: false
     context_mapping:

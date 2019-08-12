@@ -26,7 +26,7 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /desafios-y-reglas-de-oro
+    pages: /objetivos-y-reglas-de-oro
     negate: false
     context_mapping: {  }
   user_role:

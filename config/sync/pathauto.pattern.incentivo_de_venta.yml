@@ -1,0 +1,22 @@
+uuid: daf06ad0-5ee7-4af9-84f1-66cad73c33aa
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: incentivo_de_venta
+label: 'incentivo de venta'
+type: 'canonical_entities:node'
+pattern: 'incentivos-de-venta-y-concursos/[node:title]'
+selection_criteria:
+  14bfd3ed-0a4b-41f0-a3ba-6d276e87af82:
+    id: node_type
+    bundles:
+      incentivo_extra: incentivo_extra
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 14bfd3ed-0a4b-41f0-a3ba-6d276e87af82
+selection_logic: and
+weight: -5
+relationships: {  }

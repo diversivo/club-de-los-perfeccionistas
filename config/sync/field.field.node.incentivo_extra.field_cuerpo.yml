@@ -1,19 +1,21 @@
-uuid: 779d3adf-17c7-4f74-a752-1891b18eb715
+uuid: 25300500-911b-4fc5-897b-9e12765a573e
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_comentarios
+    - field.storage.node.field_cuerpo
     - node.type.incentivo_extra
-id: node.incentivo_extra.field_comentarios
-field_name: field_comentarios
+  module:
+    - text
+id: node.incentivo_extra.field_cuerpo
+field_name: field_cuerpo
 entity_type: node
 bundle: incentivo_extra
-label: Comentarios
+label: cuerpo
 description: ''
 required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: text_long

@@ -1,0 +1,38 @@
+uuid: 60118abc-0e87-403b-9f63-462428bc7563
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.inc_vta_que_es_portafolio
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - clubdlptheme
+id: views_block__inc_vta_que_es_portafolio_block_4
+theme: clubdlptheme
+region: inc_vta_que_es_portafolio
+weight: 0
+provider: null
+plugin: 'views_block:inc_vta_que_es_portafolio-block_4'
+settings:
+  id: 'views_block:inc_vta_que_es_portafolio-block_4'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      supervisor_pepsico: supervisor_pepsico
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: /que-es-portafolio
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,28 @@
+uuid: 75f0a749-1e60-4524-9b30-6fdcaa0fe8a3
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.inc_vta_que_es_portafolio
+  module:
+    - blockgroup
+    - system
+  theme:
+    - clubdlptheme
+id: incvtaqueesportafolio
+theme: clubdlptheme
+region: content
+weight: 0
+provider: null
+plugin: 'block_group:9566fc4c-2a09-4059-9cd7-16a69bbff16a'
+settings:
+  id: 'block_group:9566fc4c-2a09-4059-9cd7-16a69bbff16a'
+  label: 'INC VTA - QUE ES PORTAFOLIO'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /que-es-portafolio
+    negate: false
+    context_mapping: {  }

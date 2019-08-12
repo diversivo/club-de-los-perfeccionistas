@@ -3,14 +3,17 @@ langcode: es
 status: true
 dependencies:
   config:
-    - field.field.node.incentivo_extra.field_comentarios
+    - field.field.node.incentivo_extra.field_cuerpo
+    - field.field.node.incentivo_extra.field_documento_adjunto
     - field.field.node.incentivo_extra.field_incentivo_imagen
     - field.field.node.incentivo_extra.field_incentivo_video
     - field.field.node.incentivo_extra.field_sub_tipo
     - field.field.node.incentivo_extra.field_tipo_de_usuario
     - node.type.incentivo_extra
   module:
+    - file
     - svg_image
+    - text
     - user
     - video
 id: node.incentivo_extra.default
@@ -18,12 +21,20 @@ targetEntityType: node
 bundle: incentivo_extra
 mode: default
 content:
-  field_comentarios:
-    weight: 2
+  field_cuerpo:
+    weight: 4
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    type: text_default
+    region: content
+  field_documento_adjunto:
+    weight: 5
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
     region: content
   field_incentivo_imagen:
     weight: 1
@@ -42,7 +53,7 @@ content:
     weight: 3
     label: hidden
     settings:
-      width: '320'
+      width: '310'
       height: '180'
       controls: true
       preload: none

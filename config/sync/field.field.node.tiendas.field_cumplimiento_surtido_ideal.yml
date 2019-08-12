@@ -1,15 +1,15 @@
-uuid: 0a320ea0-cd5c-4730-af33-5487ae5291d8
+uuid: d6c56542-4f69-4d6d-9598-d8e961823e31
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_tp
+    - field.storage.node.field_cumplimiento_surtido_ideal
     - node.type.tiendas
-id: node.tiendas.field_tp
-field_name: field_tp
+id: node.tiendas.field_cumplimiento_surtido_ideal
+field_name: field_cumplimiento_surtido_ideal
 entity_type: node
 bundle: tiendas
-label: tp
+label: 'cumplimiento surtido ideal'
 description: ''
 required: false
 translatable: false
@@ -21,5 +21,5 @@ settings:
   min: 0
   max: 100
   prefix: ''
-  suffix: '%'
+  suffix: ''
 field_type: integer

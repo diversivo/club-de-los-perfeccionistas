@@ -13,7 +13,7 @@ dependencies:
 id: views_block__jerarquia_indicadores_supervisor_block_10
 theme: clubdlptheme
 region: jerarquia_supervisor
-weight: -82
+weight: 0
 provider: null
 plugin: 'views_block:jerarquia_indicadores_supervisor-block_10'
 settings:

@@ -30,7 +30,7 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "<front>\r\n/desafios-perfectos\r\n/desafios-perfectos/*\r\n/incentivos-de-venta\r\n/incentivos-de-venta/*\r\n/informacion-y-capacitacion"
+    pages: "<front>\r\n/desafios-perfectos\r\n/desafios-perfectos/*\r\n/incentivos-de-venta-y-concursos\r\n/incentivos-de-venta-y-concursos/*\r\n/informacion-y-capacitacion"
     negate: false
     context_mapping: {  }
   user_role:

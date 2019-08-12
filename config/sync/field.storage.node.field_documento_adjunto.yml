@@ -1,0 +1,23 @@
+uuid: 58da6694-d130-4870-ba0a-59ef7dc9f4d7
+langcode: es
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_documento_adjunto
+field_name: field_documento_adjunto
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: s3
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,28 @@
+uuid: 3b58eef3-d9e8-4ac4-a9c0-07d9c076eacf
+langcode: es
+status: true
+dependencies:
+  config:
+    - blockgroup.block_group_content.inc_vta
+  module:
+    - blockgroup
+    - system
+  theme:
+    - clubdlptheme
+id: incvtatodoloquenecesitassaber
+theme: clubdlptheme
+region: content
+weight: 0
+provider: null
+plugin: 'block_group:0616aeb0-edd6-4514-ac8f-3d71dbe83991'
+settings:
+  id: 'block_group:0616aeb0-edd6-4514-ac8f-3d71dbe83991'
+  label: 'INC VTA - TODO LO QUE NECESITAS SABER'
+  provider: blockgroup
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /todo-lo-que-necesitas-saber
+    negate: false
+    context_mapping: {  }

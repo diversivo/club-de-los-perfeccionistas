@@ -13,7 +13,7 @@ dependencies:
 id: views_block__jerarquia_indicadores_jefe_de_venta_block_6
 theme: clubdlptheme
 region: jerarquia_jefe_de_ventas
-weight: -62
+weight: 9
 provider: null
 plugin: 'views_block:jerarquia_indicadores_jefe_de_venta-block_6'
 settings:
@@ -29,7 +29,6 @@ visibility:
     id: user_role
     roles:
       gerente: gerente
-      dueno: dueno
       controladores: controladores
     negate: false
     context_mapping:

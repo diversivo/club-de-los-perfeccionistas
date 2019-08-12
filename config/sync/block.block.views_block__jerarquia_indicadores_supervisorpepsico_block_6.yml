@@ -13,7 +13,7 @@ dependencies:
 id: views_block__jerarquia_indicadores_supervisorpepsico_block_6
 theme: clubdlptheme
 region: jerarquia_supervisor_pepsico
-weight: -78
+weight: 9
 provider: null
 plugin: 'views_block:jerarquia_indicadores_supervisorpepsico-block_6'
 settings:
@@ -29,7 +29,6 @@ visibility:
     id: user_role
     roles:
       gerente: gerente
-      dueno: dueno
       jefe_de_ventas: jefe_de_ventas
       controladores: controladores
     negate: false

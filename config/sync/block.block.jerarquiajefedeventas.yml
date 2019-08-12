@@ -35,7 +35,6 @@ visibility:
     id: user_role
     roles:
       gerente: gerente
-      dueno: dueno
       controladores: controladores
     negate: false
     context_mapping:

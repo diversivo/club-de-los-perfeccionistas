@@ -18,10 +18,10 @@
             "type": "package",
             "package": {
                 "name": "javierdelpozolopez/club-dlp-theme",
-                "version": "7.0",
+                "version": "7.5",
                 "type": "drupal-theme",
                 "dist": {
-                    "url": "https://github.com/javierdelpozolopez/club-dlp-theme/archive/7.0.zip",
+                    "url": "https://github.com/javierdelpozolopez/club-dlp-theme/archive/7.5.zip",
                     "type": "zip"
                 }
             }
@@ -177,7 +177,7 @@
         "d3v4/d3": "4.9.1",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/admin_toolbar": "^1.27",
-        "drupal/auto_entitylabel": "^2.1@beta",
+        "drupal/auto_entitylabel": "^3.0@beta",
         "drupal/basic": "^2.0",
         "drupal/block_class": "^1.0",
         "drupal/blockgroup": "^1.1",
@@ -187,6 +187,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
         "drupal/delete_all": "^1.2",
+        "drupal/dev_mode": "^1.3",
         "drupal/devel": "^2.1",
         "drupal/ds": "^3.3",
         "drupal/feeds": "^3.0@alpha",
@@ -197,9 +198,12 @@
         "drupal/mass_pwreset": "^1.0@alpha",
         "drupal/migrate_source_csv": "^2.2",
         "drupal/pathauto": "^1.4",
+        "drupal/rabbit_hole": "^1.0@beta",
         "drupal/redirect": "^1.3",
         "drupal/redirect_after_login": "^2.5",
+        "drupal/simple_popup_blocks": "^1.2",
         "drupal/svg_image": "^1.9",
+        "drupal/twig_tweak": "^2.4",
         "drupal/user_csv_import": "^1.4",
         "drupal/video": "^1.4",
         "drupal/views_aggregator": "1.x-dev",
@@ -208,7 +212,7 @@
         "drupal/views_fieldsets": "^3.3",
         "drupal/views_simple_math_field": "^1.9",
         "drush/drush": "^9.0.0",
-        "javierdelpozolopez/club-dlp-theme": "^7.0",
+        "javierdelpozolopez/club-dlp-theme": "^7.5",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",

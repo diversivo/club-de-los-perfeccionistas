@@ -1,8 +1,0 @@
-uuid: 32f3af35-fec7-4ea2-a52e-6cb515fe378d
-langcode: es
-status: true
-dependencies: {  }
-id: community-manager
-label: 'Community Manager'
-description: ''
-locked: false

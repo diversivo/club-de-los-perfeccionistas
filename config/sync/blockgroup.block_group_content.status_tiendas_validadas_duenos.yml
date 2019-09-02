@@ -1,6 +1,0 @@
-uuid: 33446cf2-1fdf-494e-886e-d8c05545d5fd
-langcode: es
-status: true
-dependencies: {  }
-id: status_tiendas_validadas_duenos
-label: 'Status tiendas validadas dueños'

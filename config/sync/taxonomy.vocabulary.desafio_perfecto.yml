@@ -1,8 +1,0 @@
-uuid: e41f1041-a60a-482d-a1c7-1c612605e7e3
-langcode: es
-status: true
-dependencies: {  }
-name: 'Desafío Perfecto'
-vid: desafio_perfecto
-description: 'Etiquetas para los Desafíos Perfectos'
-weight: 0

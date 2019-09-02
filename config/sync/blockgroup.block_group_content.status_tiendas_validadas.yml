@@ -1,6 +1,0 @@
-uuid: 7336ea30-c5b9-446e-837e-1662f11c2a28
-langcode: es
-status: true
-dependencies: {  }
-id: status_tiendas_validadas
-label: 'Status tiendas validadas supervisores'

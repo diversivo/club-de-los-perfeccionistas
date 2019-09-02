@@ -1,6 +1,0 @@
-uuid: 9d7c7cc1-189f-4251-b68f-0bb974cad202
-langcode: es
-status: true
-dependencies: {  }
-id: status_tiendas_validadas_jefe_de_venta
-label: 'Status tiendas validadas jefe de venta'

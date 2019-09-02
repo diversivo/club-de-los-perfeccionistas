@@ -18,10 +18,10 @@
             "type": "package",
             "package": {
                 "name": "javierdelpozolopez/club-dlp-theme",
-                "version": "8.0",
+                "version": "8.5",
                 "type": "drupal-theme",
                 "dist": {
-                    "url": "https://github.com/javierdelpozolopez/club-dlp-theme/archive/8.0.zip",
+                    "url": "https://github.com/javierdelpozolopez/club-dlp-theme/archive/8.5.zip",
                     "type": "zip"
                 }
             }
@@ -195,6 +195,7 @@
         "drupal/fontawesome": "^2.13",
         "drupal/fontawesome_menu_icons": "^1.5",
         "drupal/force_password_change": "^1.3",
+        "drupal/iframe": "^1.9",
         "drupal/mass_pwreset": "^1.0@alpha",
         "drupal/migrate_source_csv": "^2.2",
         "drupal/pathauto": "^1.4",
@@ -212,7 +213,7 @@
         "drupal/views_fieldsets": "^3.3",
         "drupal/views_simple_math_field": "^1.9",
         "drush/drush": "^9.0.0",
-        "javierdelpozolopez/club-dlp-theme": "^8.0",
+        "javierdelpozolopez/club-dlp-theme": "^8.5",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",

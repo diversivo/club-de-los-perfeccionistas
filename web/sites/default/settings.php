@@ -819,6 +819,7 @@ $settings['flysystem'] = $schemes;
 $settings['cache']['bins']['data'] = 'cache.backend.php';
 
 global $content_directories;
-$content_directories['sync'] = $app_root.'/content/sync';
+//$content_directories['sync'] = $app_root.'/content/sync';
+$settings['config_sync_directory'] = $app_root.'/content/sync';
 
 $conf['feeds_process_limit'] = 12000;
